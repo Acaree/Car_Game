@@ -20,6 +20,14 @@ bool ModuleSceneIntro::Start()
 	App->camera->Move(vec3(1.0f, 1.0f, 0.0f));
 	App->camera->LookAt(vec3(0, 0, 0));
 
+	wall1.size = vec3(2.5, 2, 100);
+	wall1.SetPos(10, 1, 50);
+	wall1.color = Black;
+	wall1.SetRotation(1, vec3(1,0,0));
+	wall_1 = App->physics->AddBody(wall1, 0.0f);
+	wall_1->SetAsSensor(false);
+	wall_1->collision_listeners.add(this);
+
 	return ret;
 }
 
@@ -38,10 +46,14 @@ update_status ModuleSceneIntro::Update(float dt)
 	p.axis = true;
 	p.Render();
 
+	wall_1->GetTransform(&wall1.transform);
+	wall1.Render();
+
 	return UPDATE_CONTINUE;
 }
 
 void ModuleSceneIntro::OnCollision(PhysBody3D* body1, PhysBody3D* body2)
 {
+	LOG("Hit!");
 }
 

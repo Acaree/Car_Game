@@ -35,7 +35,7 @@ bool ModulePlayer::Start()
 	float connection_height = 1.2f;
 	float wheel_radius = 0.6f;
 	float wheel_width = 0.5f;
-	float suspensionRestLength = 1.2f;
+	float suspensionRestLength = 0.6f;
 
 	// Don't change anything below this line ------------------
 
@@ -97,7 +97,10 @@ bool ModulePlayer::Start()
 	car.wheels[3].steering = false;
 
 	vehicle = App->physics->AddVehicle(car);
-	vehicle->SetPos(0, 0, 0);
+	vehicle->SetPos(0, 0, -100);
+
+	vehicle->GetTransform(&matrix);
+	App->camera->Follow(vehicle, 10, 10, 1.f);
 	
 	return true;
 }
@@ -132,14 +135,14 @@ update_status ModulePlayer::Update(float dt)
 			turn -= TURN_DEGREES;
 	}
 
-	if (App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_DOWN)
+	if(App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_DOWN)
 	{
-			brake = BRAKE_POWER;
+		brake = BRAKE_POWER;
 	}
 
 	if (App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_REPEAT)
 	{
-			acceleration = -MAX_ACCELERATION / 2;
+		acceleration = -MAX_ACCELERATION / 2;
 	}
 
 	vehicle->ApplyEngineForce(acceleration);

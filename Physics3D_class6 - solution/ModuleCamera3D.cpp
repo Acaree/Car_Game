@@ -1,6 +1,8 @@
 #include "Globals.h"
 #include "Application.h"
 #include "PhysBody3D.h"
+#include "PhysVehicle3D.h"
+#include "ModulePlayer.h"
 #include "ModuleCamera3D.h"
 
 ModuleCamera3D::ModuleCamera3D(Application* app, bool start_enabled) : Module(app, start_enabled)
@@ -11,7 +13,7 @@ ModuleCamera3D::ModuleCamera3D(Application* app, bool start_enabled) : Module(ap
 	Y = vec3(0.0f, 1.0f, 0.0f);
 	Z = vec3(0.0f, 0.0f, 1.0f);
 
-	Position = vec3(0.0f, 0.0f, 5.0f);
+	Position = vec3(-1.0f, 7.5f, -5.0f);
 	Reference = vec3(0.0f, 0.0f, 0.0f);
 }
 
@@ -41,23 +43,46 @@ update_status ModuleCamera3D::Update(float dt)
 	// Implement a debug camera with keys and mouse
 	// Now we can make this movememnt frame rate independant!
 
-	vec3 newPos(0,0,0);
-	float speed = 3.0f * dt;
-	if(App->input->GetKey(SDL_SCANCODE_LSHIFT) == KEY_REPEAT)
-		speed = 8.0f * dt;
+	mat4x4 m;
+	following->GetTransform(&m);
 
-	if(App->input->GetKey(SDL_SCANCODE_R) == KEY_REPEAT) newPos.y += speed;
-	if(App->input->GetKey(SDL_SCANCODE_F) == KEY_REPEAT) newPos.y -= speed;
+	Look(Position, m.translation(), true);
 
-	if(App->input->GetKey(SDL_SCANCODE_W) == KEY_REPEAT) newPos -= Z * speed;
-	if(App->input->GetKey(SDL_SCANCODE_S) == KEY_REPEAT) newPos += Z * speed;
+	// Correct height
+	//Position.y = (15.0*Position.y + Position.y + following_height) / 16.0;
+	Position.y = 4;
+	//Position.z = 0;
+	// Correct distance
+	vec3 cam_to_target = m.translation() - Position;
+	float dist = length(cam_to_target);
+	float correctionFactor = 0.f;
+	if (dist < min_following_dist)
+	{
+		correctionFactor = 0.15*(min_following_dist - dist) / dist;
+	}
+	if (dist > max_following_dist)
+	{
+		correctionFactor = 0.15*(max_following_dist - dist) / dist;
+	}
+	Position -= correctionFactor * cam_to_target;
+
+	//vec3 newPos(0,0,0);
+	//float speed = 3.0f * dt;
+	//if(App->input->GetKey(SDL_SCANCODE_LSHIFT) == KEY_REPEAT)
+	//	speed = 8.0f * dt;
+
+	//if(App->input->GetKey(SDL_SCANCODE_R) == KEY_REPEAT) newPos.y += speed;
+	//if(App->input->GetKey(SDL_SCANCODE_F) == KEY_REPEAT) newPos.y -= speed;
+
+	//if (App->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT) newPos -= Z * App->player->vehicle->GetKmh() * 0.3f * dt;
+	//if(App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_REPEAT) newPos +=  App->player->vehicle->GetKmh() * 0.3f * dt;
 
 
-	if(App->input->GetKey(SDL_SCANCODE_A) == KEY_REPEAT) newPos -= X * speed;
-	if(App->input->GetKey(SDL_SCANCODE_D) == KEY_REPEAT) newPos += X * speed;
+	//if(App->input->GetKey(SDL_SCANCODE_RIGHT) == KEY_REPEAT) newPos -= X * TURN_DEGREES * DEGTORAD;
+	//if(App->input->GetKey(SDL_SCANCODE_LEFT) == KEY_REPEAT) newPos += X * TURN_DEGREES * DEGTORAD;
 
-	Position += newPos;
-	Reference += newPos;
+	//Position += newPos;
+	//Reference += newPos;
 
 	// Mouse motion ----------------
 
@@ -154,4 +179,13 @@ void ModuleCamera3D::CalculateViewMatrix()
 {
 	ViewMatrix = mat4x4(X.x, Y.x, Z.x, 0.0f, X.y, Y.y, Z.y, 0.0f, X.z, Y.z, Z.z, 0.0f, -dot(X, Position), -dot(Y, Position), -dot(Z, Position), 1.0f);
 	ViewMatrixInverse = inverse(ViewMatrix);
+}
+
+// -----------------------------------------------------------------
+void ModuleCamera3D::Follow(PhysBody3D* body, float min, float max, float height)
+{
+	min_following_dist = min;
+	max_following_dist = max;
+	following_height = height;
+	following = body;
 }
