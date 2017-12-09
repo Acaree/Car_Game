@@ -25,6 +25,11 @@ public:
 	Cube s;
 	PhysBody3D* sensor;
 
-	Cube wall1, wall2, wall3, wall4;
-	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4;
+	// Walls
+	Cube wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall8;
+	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8;
+
+	// Road
+	Cube road1, road2, road3;
+	PhysBody3D *road_1, *road_2, *road_3;
 };

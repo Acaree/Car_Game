@@ -49,9 +49,11 @@ update_status ModuleCamera3D::Update(float dt)
 	Look(Position, m.translation(), true);
 
 	// Correct height
-	//Position.y = (15.0*Position.y + Position.y + following_height) / 16.0;
+	if(m.translation().y<2.5)
 	Position.y = 4;
-	//Position.z = 0;
+	else
+		Position.y = 8;
+
 	// Correct distance
 	vec3 cam_to_target = m.translation() - Position;
 	float dist = length(cam_to_target);
@@ -65,24 +67,6 @@ update_status ModuleCamera3D::Update(float dt)
 		correctionFactor = 0.15*(max_following_dist - dist) / dist;
 	}
 	Position -= correctionFactor * cam_to_target;
-
-	//vec3 newPos(0,0,0);
-	//float speed = 3.0f * dt;
-	//if(App->input->GetKey(SDL_SCANCODE_LSHIFT) == KEY_REPEAT)
-	//	speed = 8.0f * dt;
-
-	//if(App->input->GetKey(SDL_SCANCODE_R) == KEY_REPEAT) newPos.y += speed;
-	//if(App->input->GetKey(SDL_SCANCODE_F) == KEY_REPEAT) newPos.y -= speed;
-
-	//if (App->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT) newPos -= Z * App->player->vehicle->GetKmh() * 0.3f * dt;
-	//if(App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_REPEAT) newPos +=  App->player->vehicle->GetKmh() * 0.3f * dt;
-
-
-	//if(App->input->GetKey(SDL_SCANCODE_RIGHT) == KEY_REPEAT) newPos -= X * TURN_DEGREES * DEGTORAD;
-	//if(App->input->GetKey(SDL_SCANCODE_LEFT) == KEY_REPEAT) newPos += X * TURN_DEGREES * DEGTORAD;
-
-	//Position += newPos;
-	//Reference += newPos;
 
 	// Mouse motion ----------------
 
