@@ -26,10 +26,10 @@ public:
 	PhysBody3D* sensor;
 
 	// Walls
-	Cube wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall8;
-	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8;
+	Cube wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall8, wall9, wall10, wall11, wall12;
+	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8, *wall_9, *wall_10, *wall_11, *wall_12;
 
 	// Road
-	Cube road1, road2, road3;
-	PhysBody3D *road_1, *road_2, *road_3;
+	Cube road1, road2, road3, road4, road5;
+	PhysBody3D *road_1, *road_2, *road_3, *road_4, *road_5;
 };
