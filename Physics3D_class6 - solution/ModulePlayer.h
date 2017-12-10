@@ -23,7 +23,6 @@ public:
 
 	PhysVehicle3D* vehicle;
 	mat4x4 matrix;
-	//vec3 position;
 	float turn;
 	float acceleration;
 	float brake;
