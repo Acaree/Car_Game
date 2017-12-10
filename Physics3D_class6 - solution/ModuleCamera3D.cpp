@@ -51,8 +51,10 @@ update_status ModuleCamera3D::Update(float dt)
 	// Correct height
 	if(m.translation().y<2.5)
 	Position.y = 4;
+	else if(m.translation().y>2.5 && (m.translation().y<9.5))
+		Position.y = 7.2;
 	else
-		Position.y = 8;
+		Position.y = 14;
 
 	// Correct distance
 	vec3 cam_to_target = m.translation() - Position;
