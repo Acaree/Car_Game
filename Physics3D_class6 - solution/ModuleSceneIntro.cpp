@@ -233,12 +233,58 @@ bool ModuleSceneIntro::Start()
 		wall_28 = App->physics->AddBody(wall28, 0.0f);
 		wall_28->SetAsSensor(false);
 		wall_28->collision_listeners.add(this);
+
+		wall29.size = vec3(1, 2, 20);
+		wall29.SetPos(-67.7, 13.655, 373.5);
+		wall29.color = Blue;
+		wall29.SetRotation(-15, vec3(1, 0, 0));
+		wall_29 = App->physics->AddBody(wall29, 0.0f);
+		wall_29->SetAsSensor(false);
+		wall_29->collision_listeners.add(this);
+
+		wall30.size = vec3(1, 2, 20);
+		wall30.SetPos(-77.65, 13.655, 373.5);
+		wall30.color = Blue;
+		wall30.SetRotation(-15, vec3(1, 0, 0));
+		wall_30 = App->physics->AddBody(wall30, 0.0f);
+		wall_30->SetAsSensor(false);
+		wall_30->collision_listeners.add(this);
+
+		wall31.size = vec3(1, 2, 15.25);
+		wall31.SetPos(-67.7, 16.2, 390.5);
+		wall31.color = Blue;
+		wall_31 = App->physics->AddBody(wall31, 0.0f);
+		wall_31->SetAsSensor(false);
+		wall_31->collision_listeners.add(this);
+
+		wall32.size = vec3(1, 2, 20.25);
+		wall32.SetPos(-77.65, 16.2, 393);
+		wall32.color = Blue;
+		wall_32 = App->physics->AddBody(wall32, 0.0f);
+		wall_32->SetAsSensor(false);
+		wall_32->collision_listeners.add(this);
+
+		wall33.size = vec3(1, 2, 15.25);
+		wall33.SetPos(-63.95, 16.2, 404.45);
+		wall33.color = Blue;
+		wall33.SetRotation(30, vec3(0, 1, 0));
+		wall_33 = App->physics->AddBody(wall33, 0.0f);
+		wall_33->SetAsSensor(false);
+		wall_33->collision_listeners.add(this);
+
+		wall34.size = vec3(1, 2, 20.25);
+		wall34.SetPos(-72.55, 16.2, 412.1);
+		wall34.color = Blue;
+		wall34.SetRotation(30, vec3(0, 1, 0));
+		wall_34 = App->physics->AddBody(wall34, 0.0f);
+		wall_34->SetAsSensor(false);
+		wall_34->collision_listeners.add(this);
 	}
 
 	// Road--------------------------------------------------------------------
 
 		road1.size = vec3(12, 0.2, 200);
-		road1.SetPos(0, 0.01, 0);
+		road1.SetPos(0, 0, 0);
 		road1.color = White;
 		road_1 = App->physics->AddBody(road1, 0.0f);
 		road_1->SetAsSensor(false);
@@ -342,6 +388,29 @@ bool ModuleSceneIntro::Start()
 		road_14 = App->physics->AddBody(road14, 0.0f);
 		road_14->SetAsSensor(false);
 		road_14->collision_listeners.add(this);
+
+		road15.size = vec3(10, 0.2, 20);
+		road15.SetPos(-73, 12.6, 373.8);
+		road15.color = White;
+		road15.SetRotation(-15, vec3(1, 0, 0));
+		road_15 = App->physics->AddBody(road15, 0.0f);
+		road_15->SetAsSensor(false);
+		road_15->collision_listeners.add(this);
+
+		road16.size = vec3(10, 0.2, 20);
+		road16.SetPos(-73, 15.185, 393.45);
+		road16.color = White;
+		road_16 = App->physics->AddBody(road16, 0.0f);
+		road_16->SetAsSensor(false);
+		road_16->collision_listeners.add(this);
+
+		road17.size = vec3(11, 0.2, 21);
+		road17.SetPos(-68, 15.184, 409.5);
+		road17.color = White;
+		road17.SetRotation(30, vec3(0, 1, 0));
+		road_17 = App->physics->AddBody(road17, 0.0f);
+		road_17->SetAsSensor(false);
+		road_17->collision_listeners.add(this);
 
 
 	return ret;
@@ -447,6 +516,24 @@ update_status ModuleSceneIntro::Update(float dt)
 	wall_28->GetTransform(&wall28.transform);
 	wall28.Render();
 
+	wall_29->GetTransform(&wall29.transform);
+	wall29.Render();
+
+	wall_30->GetTransform(&wall30.transform);
+	wall30.Render();
+
+	wall_31->GetTransform(&wall31.transform);
+	wall31.Render();
+
+	wall_32->GetTransform(&wall32.transform);
+	wall32.Render();
+
+	wall_33->GetTransform(&wall33.transform);
+	wall33.Render();
+
+	wall_34->GetTransform(&wall34.transform);
+	wall34.Render();
+
 
 	//Road
 	road_1->GetTransform(&road1.transform);
@@ -490,6 +577,16 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_14->GetTransform(&road14.transform);
 	road14.Render();
+
+	road_15->GetTransform(&road15.transform);
+	road15.Render();
+
+	road_16->GetTransform(&road16.transform);
+	road16.Render();
+
+	road_17->GetTransform(&road17.transform);
+	road17.Render();
+
 
 	return UPDATE_CONTINUE;
 }

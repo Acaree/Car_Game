@@ -97,8 +97,7 @@ bool ModulePlayer::Start()
 	car.wheels[3].steering = false;
 
 	vehicle = App->physics->AddVehicle(car);
-	vehicle->SetPos(0,0,-50);
-
+	vehicle->SetPos(0,0,0);
 	vehicle->GetTransform(&matrix);
 	App->camera->Follow(vehicle, 10, 10, 1.f);
 	
@@ -120,7 +119,7 @@ update_status ModulePlayer::Update(float dt)
 
 	if(App->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT)
 	{
-		if (App->player->vehicle->GetKmh() <= 105)
+		if (App->player->vehicle->GetKmh() <= 95)
 			acceleration = ACCELERATION;
 		else
 			acceleration = 0;
