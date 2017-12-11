@@ -203,6 +203,36 @@ bool ModuleSceneIntro::Start()
 		wall_24 = App->physics->AddBody(wall24, 0.0f);
 		wall_24->SetAsSensor(false);
 		wall_24->collision_listeners.add(this);
+
+		wall25.size = vec3(1, 2, 10);
+		wall25.SetPos(-72.22, 11.035, 346.43);
+		wall25.color = Blue;
+		wall25.SetRotation(60, vec3(0, 1, 0));
+		wall_25 = App->physics->AddBody(wall25, 0.0f);
+		wall_25->SetAsSensor(false);
+		wall_25->collision_listeners.add(this);
+
+		wall26.size = vec3(1, 2, 15);
+		wall26.SetPos(-83.9, 11.035, 348.4);
+		wall26.color = Blue;
+		wall26.SetRotation(60, vec3(0, 1, 0));
+		wall_26 = App->physics->AddBody(wall26, 0.0f);
+		wall_26->SetAsSensor(false);
+		wall_26->collision_listeners.add(this);
+
+		wall27.size = vec3(1, 2, 15);
+		wall27.SetPos(-67.7, 11.035, 356.725);
+		wall27.color = Blue;
+		wall_27 = App->physics->AddBody(wall27, 0.0f);
+		wall_27->SetAsSensor(false);
+		wall_27->collision_listeners.add(this);
+
+		wall28.size = vec3(1, 2, 12.5);
+		wall28.SetPos(-77.65, 11.035, 357.975);
+		wall28.color = Blue;
+		wall_28 = App->physics->AddBody(wall28, 0.0f);
+		wall_28->SetAsSensor(false);
+		wall_28->collision_listeners.add(this);
 	}
 
 	// Road--------------------------------------------------------------------
@@ -298,6 +328,21 @@ bool ModuleSceneIntro::Start()
 		road_12->SetAsSensor(false);
 		road_12->collision_listeners.add(this);
 
+		road13.size = vec3(7, 0.2, 22);
+		road13.SetPos(-79, 10.032, 346.7);
+		road13.color = White;
+		road13.SetRotation(60, vec3(0, 1, 0));
+		road_13 = App->physics->AddBody(road13, 0.0f);
+		road_13->SetAsSensor(false);
+		road_13->collision_listeners.add(this);
+
+		road14.size = vec3(10, 0.2, 14.5);
+		road14.SetPos(-73, 10.031, 356.975);
+		road14.color = White;
+		road_14 = App->physics->AddBody(road14, 0.0f);
+		road_14->SetAsSensor(false);
+		road_14->collision_listeners.add(this);
+
 
 	return ret;
 }
@@ -390,6 +435,18 @@ update_status ModuleSceneIntro::Update(float dt)
 	wall_24->GetTransform(&wall24.transform);
 	wall24.Render();
 
+	wall_25->GetTransform(&wall25.transform);
+	wall25.Render();
+
+	wall_26->GetTransform(&wall26.transform);
+	wall26.Render();
+
+	wall_27->GetTransform(&wall27.transform);
+	wall27.Render();
+
+	wall_28->GetTransform(&wall28.transform);
+	wall28.Render();
+
 
 	//Road
 	road_1->GetTransform(&road1.transform);
@@ -427,6 +484,12 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_12->GetTransform(&road12.transform);
 	road12.Render();
+
+	road_13->GetTransform(&road13.transform);
+	road13.Render();
+
+	road_14->GetTransform(&road14.transform);
+	road14.Render();
 
 	return UPDATE_CONTINUE;
 }
