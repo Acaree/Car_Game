@@ -21,6 +21,8 @@ public:
 
 	void OnCollision(PhysBody3D* body1, PhysBody3D* body2);
 
+	PhysBody3D* CreateWall(Cube &cube, vec3 size, vec3 pos, Color color, bool isSensor, Module* Callback);
+
 public:
 	Cube s;
 	PhysBody3D* sensor;
@@ -36,4 +38,6 @@ public:
 	Cube road1, road2, road3, road4, road5, road6, road7, road8, road9, road10, road11, road12, road13, road14, road15, road16, road17;
 	PhysBody3D *road_1, *road_2, *road_3, *road_4, *road_5, *road_6, *road_7, *road_8, *road_9, *road_10, *road_11, *road_12, *road_13, *road_14,
 		*road_15, *road_16, *road_17;
+
+	
 };

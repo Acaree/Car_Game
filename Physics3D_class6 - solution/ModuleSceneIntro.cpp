@@ -22,12 +22,8 @@ bool ModuleSceneIntro::Start()
 
 	// Walls--------------------------------------------------------------------
 	{
-		wall1.size = vec3(1, 2, 200);
-		wall1.SetPos(6, 1, 0);
-		wall1.color = Blue;
-		wall_1 = App->physics->AddBody(wall1, 0.0f);
-		wall_1->SetAsSensor(false);
-		wall_1->collision_listeners.add(this);
+
+		wall_1 = CreateWall(wall1, vec3(1, 2, 200), vec3(6, 1, 0), Blue,false, this);
 
 		wall2.size = vec3(1, 2, 200);
 		wall2.SetPos(-6, 1, 0);
@@ -596,3 +592,14 @@ void ModuleSceneIntro::OnCollision(PhysBody3D* body1, PhysBody3D* body2)
 	LOG("Hit!");
 }
 
+PhysBody3D* ModuleSceneIntro::CreateWall(Cube &cube, vec3 size, vec3 pos, Color color, bool isSensor, Module* Callback) {
+
+	PhysBody3D* wall_pbody;
+	cube.size = size;
+	cube.SetPos(pos.x,pos.y,pos.z);
+	cube.color = color;
+	wall_pbody = App->physics->AddBody(cube, 0.0f);
+	wall_pbody->SetAsSensor(isSensor);
+	wall_pbody->collision_listeners.add(Callback);
+	return wall_pbody;
+}
