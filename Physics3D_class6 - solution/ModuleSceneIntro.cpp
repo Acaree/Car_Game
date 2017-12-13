@@ -39,30 +39,30 @@ bool ModuleSceneIntro::Start()
 		wall_14 = CreateWall(wall14, vec3(1, 2, 20), vec3(-77.7, 4.25, 230.3), Blue, -15, vec3(0, 1, 0), false, this);
 		wall_15 = CreateWall(wall15, vec3(1, 2, 12), vec3(-66.025, 4.25, 251.25), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_16 = CreateWall(wall16, vec3(1, 2, 17.2), vec3(-80.3, 4.25, 248.6), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_17 = CreateWall(wall17, vec3(1, 2, 21), vec3(-66.025, 7.625, 266.82), Blue, -20, vec3(1, 0, 0), false, this);
-		wall_18 = CreateWall(wall18, vec3(1, 2, 21), vec3(-80.3, 7.625, 266.82), Blue, -20, vec3(1, 0, 0), false, this);
-		wall_19 = CreateWall(wall19, vec3(1, 2, 30), vec3(-66.025, 11.035, 291.175), Blue, 0, vec3(1, 0, 0), false, this);
-		wall_20 = CreateWall(wall20, vec3(1, 2, 30), vec3(-80.3, 11.035, 291.175), Blue, 0, vec3(1, 0, 0), false, this);
-		wall_21 = CreateWall(wall21, vec3(1, 2, 30), vec3(-71.19, 11.035, 320.44), Blue, -20, vec3(0, 1, 0), false, this);
-		wall_22 = CreateWall(wall22, vec3(1, 2, 30), vec3(-85.399, 11.035, 320.1), Blue, -20, vec3(0, 1, 0), false, this);
-		wall_23 = CreateWall(wall23, vec3(1, 2, 10), vec3(-76.29, 11.035, 339.37), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_24 = CreateWall(wall24, vec3(1, 2, 10), vec3(-90.55, 11.035, 339.28), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_25 = CreateWall(wall25, vec3(1, 2, 10), vec3(-72.22, 11.035, 346.43), Blue, 60, vec3(0, 1, 0), false, this);
-		wall_26 = CreateWall(wall26, vec3(1, 2, 15), vec3(-83.9, 11.035, 348.4), Blue, 60, vec3(0, 1, 0), false, this);
-		wall_27 = CreateWall(wall27, vec3(1, 2, 15), vec3(-67.7, 11.035, 356.725), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_28 = CreateWall(wall28, vec3(1, 2, 12.5), vec3(-77.65, 11.035, 357.975), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_29 = CreateWall(wall29, vec3(1, 2, 20), vec3(-67.7, 13.655, 373.5), Blue, -15, vec3(1, 0, 0), false, this);
-		wall_30 = CreateWall(wall30, vec3(1, 2, 20), vec3(-77.65, 13.655, 373.5), Blue, -15, vec3(1, 0, 0), false, this);
-		wall_31 = CreateWall(wall31, vec3(1, 2, 15.25), vec3(-67.7, 16.2, 390.5), Blue, 0, vec3(1, 0, 0), false, this);
-		wall_32 = CreateWall(wall32, vec3(1, 2, 20.25), vec3(-77.65, 16.2, 393), Blue, 0, vec3(1, 0, 0), false, this);
-		wall_33 = CreateWall(wall33, vec3(1, 2, 15.25), vec3(-63.95, 16.2, 404.45), Blue, 30, vec3(0, 1, 0), false, this);
-		wall_34 = CreateWall(wall34, vec3(1, 2, 20.25), vec3(-72.55, 16.2, 412.1), Blue, 30, vec3(0, 1, 0), false, this);
-		wall_35 = CreateWall(wall35, vec3(1, 2, 15.25), vec3(-54.87, 16.2, 416.25), Blue, 45, vec3(0, 1, 0), false, this);
-		wall_36 = CreateWall(wall36, vec3(1, 2, 20.25), vec3(-60.5, 16.2, 428), Blue, 45, vec3(0, 1, 0), false, this);
-		wall_37 = CreateWall(wall37, vec3(1, 2, 15.25), vec3(-43.15, 16.2, 425.2), Blue, 60, vec3(0, 1, 0), false, this);
-		wall_38 = CreateWall(wall38, vec3(1, 2, 20.25), vec3(-44.75, 16.2, 440.2), Blue, 60, vec3(0, 1, 0), false, this);
-		wall_39 = CreateWall(wall39, vec3(1, 2, 15.25), vec3(-43.15, 16.2, 425.2), Blue, 75, vec3(0, 1, 0), false, this);
-		wall_40 = CreateWall(wall40, vec3(1, 2, 20.25), vec3(-44.75, 16.2, 440.2), Blue, 75, vec3(0, 1, 0), false, this);
+		wall_17 = CreateWall(wall17, vec3(1, 2, 21), vec3(-66.025, 5.9, 266.82), Blue, -10, vec3(1, 0, 0), false, this);
+		wall_18 = CreateWall(wall18, vec3(1, 2, 21), vec3(-80.3, 5.9, 266.82), Blue, -10, vec3(1, 0, 0), false, this);
+		wall_19 = CreateWall(wall19, vec3(1, 2, 30), vec3(-66.025, 7.6, 291.175), Blue, 0, vec3(1, 0, 0), false, this);
+		wall_20 = CreateWall(wall20, vec3(1, 2, 30), vec3(-80.3, 7.6, 291.175), Blue, 0, vec3(1, 0, 0), false, this);
+		wall_21 = CreateWall(wall21, vec3(1, 2, 30), vec3(-71.19, 7.6, 320.44), Blue, -20, vec3(0, 1, 0), false, this);
+		wall_22 = CreateWall(wall22, vec3(1, 2, 30), vec3(-85.399, 7.6, 320.1), Blue, -20, vec3(0, 1, 0), false, this);
+		wall_23 = CreateWall(wall23, vec3(1, 2, 10), vec3(-76.29, 7.6, 339.37), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_24 = CreateWall(wall24, vec3(1, 2, 10), vec3(-90.55, 7.6, 339.28), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_25 = CreateWall(wall25, vec3(1, 2, 10), vec3(-72.22, 7.6, 346.43), Blue, 60, vec3(0, 1, 0), false, this);
+		wall_26 = CreateWall(wall26, vec3(1, 2, 15), vec3(-83.9, 7.6, 348.4), Blue, 60, vec3(0, 1, 0), false, this);
+		wall_27 = CreateWall(wall27, vec3(1, 2, 15), vec3(-67.7, 7.6, 356.725), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_28 = CreateWall(wall28, vec3(1, 2, 12.5), vec3(-77.65, 7.6, 357.975), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_29 = CreateWall(wall29, vec3(1, 2, 20), vec3(-67.7, 9.25, 373.5), Blue, -10, vec3(1, 0, 0), false, this);
+		wall_30 = CreateWall(wall30, vec3(1, 2, 20), vec3(-77.65, 9.25, 373.5), Blue, -10, vec3(1, 0, 0), false, this);
+		wall_31 = CreateWall(wall31, vec3(1, 2, 15.25), vec3(-67.7, 10.99, 390.5), Blue, 0, vec3(1, 0, 0), false, this);
+		wall_32 = CreateWall(wall32, vec3(1, 2, 20.25), vec3(-77.65, 10.99, 393), Blue, 0, vec3(1, 0, 0), false, this);
+		wall_33 = CreateWall(wall33, vec3(1, 2, 15.25), vec3(-63.95, 10.99, 404.45), Blue, 30, vec3(0, 1, 0), false, this);
+		wall_34 = CreateWall(wall34, vec3(1, 2, 20.25), vec3(-72.55, 10.99, 412.1), Blue, 30, vec3(0, 1, 0), false, this);
+		wall_35 = CreateWall(wall35, vec3(1, 2, 15.25), vec3(-54.87, 10.99, 416.25), Blue, 45, vec3(0, 1, 0), false, this);
+		wall_36 = CreateWall(wall36, vec3(1, 2, 20.25), vec3(-60.5, 10.99, 428), Blue, 45, vec3(0, 1, 0), false, this);
+		wall_37 = CreateWall(wall37, vec3(1, 2, 15.25), vec3(-43.15, 10.99, 425.2), Blue, 60, vec3(0, 1, 0), false, this);
+		wall_38 = CreateWall(wall38, vec3(1, 2, 20.25), vec3(-44.75, 10.99, 440.2), Blue, 60, vec3(0, 1, 0), false, this);
+		wall_39 = CreateWall(wall39, vec3(1, 2, 15.25), vec3(-29.45, 10.99, 430.85), Blue, 75, vec3(0, 1, 0), false, this);
+		wall_40 = CreateWall(wall40, vec3(1, 2, 20.25), vec3(-26.3, 10.99, 447.85), Blue, 75, vec3(0, 1, 0), false, this);
 
 
 	}
@@ -77,17 +77,18 @@ bool ModuleSceneIntro::Start()
 	road_6 = CreateWall(road6, vec3(17, 0.2, 30), vec3(-64, 3.22, 218.75), White, -30, vec3(0, 1, 0), false, this);
 	road_7 = CreateWall(road7, vec3(15, 0.2, 15), vec3(-71.5, 3.21, 237), White, -15, vec3(0, 1, 0), false, this);
 	road_8 = CreateWall(road8, vec3(15, 0.2, 15), vec3(-73, 3.2, 249.9), White, 0, vec3(0, 1, 0), false, this);
-	road_9 = CreateWall(road9, vec3(14, 0.2, 20), vec3(-73, 6.625, 266.82), White, -20, vec3(1, 0, 0), false, this);
-	road_10 = CreateWall(road10, vec3(14, 0.2, 30), vec3(-73, 10.035, 291.175), White, 0, vec3(1, 0, 0), false, this);
-	road_11 = CreateWall(road11, vec3(14, 0.2, 32), vec3(-77.75, 10.034, 318.75), White, -20, vec3(0, 1, 0), false, this);
-	road_12 = CreateWall(road12, vec3(14, 0.2, 13), vec3(-83.25, 10.033, 338), White, 0, vec3(0, 1, 0), false, this);
-	road_13 = CreateWall(road13, vec3(7, 0.2, 22), vec3(-79, 10.032, 346.7), White, 60, vec3(0, 1, 0), false, this);
-	road_14 = CreateWall(road14, vec3(10, 0.2, 14.5), vec3(-73, 10.031, 356.975), White, 0, vec3(0, 1, 0), false, this);
-	road_15 = CreateWall(road15, vec3(10, 0.2, 20), vec3(-73, 12.6, 373.8), White, -15, vec3(1, 0, 0), false, this);
-	road_16 = CreateWall(road16, vec3(10, 0.2, 20), vec3(-73, 15.185, 393.45), White, 0, vec3(1, 0, 0), false, this);
-	road_17 = CreateWall(road17, vec3(11, 0.2, 21), vec3(-67.5, 15.184, 409.5), White, 30, vec3(0, 1, 0), false, this);
-	road_18 = CreateWall(road18, vec3(12, 0.2, 21), vec3(-56.5, 15.183, 423.1), White, 45, vec3(0, 1, 0), false, this);
-	road_19 = CreateWall(road19, vec3(14, 0.2, 22.7), vec3(-42.5, 15.182, 434), White, 60, vec3(0, 1, 0), false, this);
+	road_9 = CreateWall(road9, vec3(14, 0.2, 20), vec3(-73, 4.9, 266.82), White, -10, vec3(1, 0, 0), false, this);
+	road_10 = CreateWall(road10, vec3(14, 0.2, 30), vec3(-73, 6.6, 291.71), White, 0, vec3(1, 0, 0), false, this);
+	road_11 = CreateWall(road11, vec3(14, 0.2, 32), vec3(-77.75, 6.59, 318.75), White, -20, vec3(0, 1, 0), false, this);
+	road_12 = CreateWall(road12, vec3(14, 0.2, 13), vec3(-83.25, 6.58, 338), White, 0, vec3(0, 1, 0), false, this);
+	road_13 = CreateWall(road13, vec3(7, 0.2, 22), vec3(-79, 6.57, 346.7), White, 60, vec3(0, 1, 0), false, this);
+	road_14 = CreateWall(road14, vec3(10, 0.2, 14.5), vec3(-73, 6.56, 356.975), White, 0, vec3(0, 1, 0), false, this);
+	road_15 = CreateWall(road15, vec3(10, 0.2, 20), vec3(-73, 8.25, 373.8), White, -10, vec3(1, 0, 0), false, this);
+	road_16 = CreateWall(road16, vec3(10, 0.2, 20), vec3(-73, 9.99, 393.63), White, 0, vec3(1, 0, 0), false, this);
+	road_17 = CreateWall(road17, vec3(11, 0.2, 21), vec3(-67.5, 9.98, 409.5), White, 30, vec3(0, 1, 0), false, this);
+	road_18 = CreateWall(road18, vec3(12, 0.2, 21), vec3(-56.5, 9.97, 423.1), White, 45, vec3(0, 1, 0), false, this);
+	road_19 = CreateWall(road19, vec3(14, 0.2, 22.7), vec3(-42.5, 9.96, 434), White, 60, vec3(0, 1, 0), false, this);
+	road_20 = CreateWall(road20, vec3(15, 0.2, 25), vec3(-26.25, 9.95, 439.75), White, 75, vec3(0, 1, 0), false, this);
 
 	return ret;
 }
@@ -286,6 +287,9 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_19->GetTransform(&road19.transform);
 	road19.Render();
+
+	road_20->GetTransform(&road20.transform);
+	road20.Render();
 
 	return UPDATE_CONTINUE;
 }
