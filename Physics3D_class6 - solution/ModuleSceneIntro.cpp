@@ -63,7 +63,16 @@ bool ModuleSceneIntro::Start()
 		wall_38 = CreateWall(wall38, vec3(1, 2, 20.25), vec3(-44.75, 10.99, 440.2), Blue, 60, vec3(0, 1, 0), false, this);
 		wall_39 = CreateWall(wall39, vec3(1, 2, 15.25), vec3(-29.45, 10.99, 430.85), Blue, 75, vec3(0, 1, 0), false, this);
 		wall_40 = CreateWall(wall40, vec3(1, 2, 20.25), vec3(-26.3, 10.99, 447.85), Blue, 75, vec3(0, 1, 0), false, this);
-
+		wall_41 = CreateWall(wall41, vec3(20, 2, 1), vec3(-12.25, 10.99, 432.79), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_42 = CreateWall(wall42, vec3(20.25, 2, 1), vec3(-6.5, 10.99, 450.5), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_43 = CreateWall(wall43, vec3(1, 2, 15.25), vec3(4, 10.99, 429.04), Blue, -60, vec3(0, 1, 0), false, this);
+		wall_44 = CreateWall(wall44, vec3(1, 2, 20.25), vec3(12, 10.99, 445.5), Blue, -60, vec3(0, 1, 0), false, this);
+		wall_45 = CreateWall(wall45, vec3(1, 2, 50), vec3(26.5, 10.99, 406.2), Blue, -40, vec3(0, 1, 0), false, this);
+		wall_46 = CreateWall(wall46, vec3(1, 2, 56.5), vec3(38, 10.99, 419.65), Blue, -40, vec3(0, 1, 0), false, this);
+		wall_47 = CreateWall(wall47, vec3(1, 2, 15), vec3(45.5, 10.99, 380.5), Blue, -25, vec3(0, 1, 0), false, this);
+		wall_48 = CreateWall(wall48, vec3(1, 2, 15), vec3(62.025, 10.99, 394), Blue, -55, vec3(0, 1, 0), false, this);
+		wall_49 = CreateWall(wall49, vec3(1, 2, 105), vec3(57.5, 10.99, 367.5), Blue, -40, vec3(0, 1, 0), false, this);
+		wall_50 = CreateWall(wall50, vec3(1, 2, 110), vec3(100, 10.99, 390), Blue, -40, vec3(0, 1, 0), false, this);
 
 	}
 
@@ -85,10 +94,14 @@ bool ModuleSceneIntro::Start()
 	road_14 = CreateWall(road14, vec3(10, 0.2, 14.5), vec3(-73, 6.56, 356.975), White, 0, vec3(0, 1, 0), false, this);
 	road_15 = CreateWall(road15, vec3(10, 0.2, 20), vec3(-73, 8.25, 373.8), White, -10, vec3(1, 0, 0), false, this);
 	road_16 = CreateWall(road16, vec3(10, 0.2, 20), vec3(-73, 9.99, 393.63), White, 0, vec3(1, 0, 0), false, this);
-	road_17 = CreateWall(road17, vec3(11, 0.2, 21), vec3(-67.5, 9.98, 409.5), White, 30, vec3(0, 1, 0), false, this);
-	road_18 = CreateWall(road18, vec3(12, 0.2, 21), vec3(-56.5, 9.97, 423.1), White, 45, vec3(0, 1, 0), false, this);
-	road_19 = CreateWall(road19, vec3(14, 0.2, 22.7), vec3(-42.5, 9.96, 434), White, 60, vec3(0, 1, 0), false, this);
-	road_20 = CreateWall(road20, vec3(15, 0.2, 25), vec3(-26.25, 9.95, 439.75), White, 75, vec3(0, 1, 0), false, this);
+	road_17 = CreateWall(road17, vec3(11, 0.2, 21), vec3(-67.5, 9.989, 409.5), White, 30, vec3(0, 1, 0), false, this);
+	road_18 = CreateWall(road18, vec3(12, 0.2, 21), vec3(-56.5, 9.988, 423.1), White, 45, vec3(0, 1, 0), false, this);
+	road_19 = CreateWall(road19, vec3(14, 0.2, 22.7), vec3(-42.5, 9.987, 434), White, 60, vec3(0, 1, 0), false, this);
+	road_20 = CreateWall(road20, vec3(15, 0.2, 25), vec3(-26.25, 9.986, 439.75), White, 75, vec3(0, 1, 0), false, this);
+	road_21 = CreateWall(road21, vec3(27, 0.2, 17), vec3(-8, 9.985, 441.75), White, 0, vec3(0, 1, 0), false, this);
+	road_22 = CreateWall(road22, vec3(18, 0.2, 19), vec3(8, 9.984, 437.25), White, -60, vec3(0, 1, 0), false, this);
+	road_23 = CreateWall(road23, vec3(17, 0.2, 60), vec3(30, 9.983, 415.2), White, -40, vec3(0, 1, 0), false, this);
+	road_24 = CreateWall(road24, vec3(25, 0.2, 150), vec3(70, 9.982, 367.5), White, -40, vec3(0, 1, 0), false, this);
 
 	return ret;
 }
@@ -229,6 +242,36 @@ update_status ModuleSceneIntro::Update(float dt)
 	wall_40->GetTransform(&wall40.transform);
 	wall40.Render();
 
+	wall_41->GetTransform(&wall41.transform);
+	wall41.Render();
+
+	wall_42->GetTransform(&wall42.transform);
+	wall42.Render();
+
+	wall_43->GetTransform(&wall43.transform);
+	wall43.Render();
+
+	wall_44->GetTransform(&wall44.transform);
+	wall44.Render();
+
+	wall_45->GetTransform(&wall45.transform);
+	wall45.Render();
+
+	wall_46->GetTransform(&wall46.transform);
+	wall46.Render();
+
+	wall_47->GetTransform(&wall47.transform);
+	wall47.Render();
+
+	wall_48->GetTransform(&wall48.transform);
+	wall48.Render();
+
+	wall_49->GetTransform(&wall49.transform);
+	wall49.Render();
+
+	wall_50->GetTransform(&wall50.transform);
+	wall50.Render();
+
 
 	//Road
 	road_1->GetTransform(&road1.transform);
@@ -290,6 +333,18 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_20->GetTransform(&road20.transform);
 	road20.Render();
+
+	road_21->GetTransform(&road21.transform);
+	road21.Render();
+
+	road_22->GetTransform(&road22.transform);
+	road22.Render();
+
+	road_23->GetTransform(&road23.transform);
+	road23.Render();
+
+	road_24->GetTransform(&road24.transform);
+	road24.Render();
 
 	return UPDATE_CONTINUE;
 }
