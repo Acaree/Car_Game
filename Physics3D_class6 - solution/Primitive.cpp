@@ -221,6 +221,54 @@ void Cylinder::InnerRender() const
 	glEnd();
 }
 
+
+// CONE ============================================
+Cone::Cone() : Primitive(), radius(1.0f), height(1.0f)
+{
+	type = PrimitiveTypes::Primitive_Cone;
+}
+
+Cone::Cone(float radius, float height) : Primitive(), radius(radius), height(height)
+{
+	type = PrimitiveTypes::Primitive_Cone;
+}
+
+void Cone::InnerRender() const
+{
+	int n = 30;
+
+	// Cone Bottom
+	glBegin(GL_POLYGON);
+
+	for (int i = 360; i >= 0; i -= (360 / n))
+	{
+		float a = i * M_PI / 180; // degrees to radians
+		glVertex3f(-height*0.5f, radius * cos(a), radius * sin(a));
+	}
+	glEnd();
+
+	// Cone Top
+	glBegin(GL_POLYGON);
+	glNormal3f(0.0f, 0.0f, 1.0f);
+	for (int i = 0; i <= 360; i += (360 / n))
+	{
+		float a = i * M_PI / 180; // degrees to radians
+		glVertex3f(height * 0.5f, 0.001 * cos(a), 0.001 * sin(a));
+	}
+	glEnd();
+
+	// Cone "Cover"
+	glBegin(GL_QUAD_STRIP);
+	for (int i = 0; i < 480; i += (360 / n))
+	{
+		float a = i * M_PI / 180; // degrees to radians
+
+		glVertex3f(height*0.5f, 0.001 * cos(a),0.001 * sin(a));
+		glVertex3f(-height*0.5f, radius * cos(a), radius * sin(a));
+	}
+	glEnd();
+}
+
 // LINE ==================================================
 Line::Line() : Primitive(), origin(0, 0, 0), destination(1, 1, 1)
 {

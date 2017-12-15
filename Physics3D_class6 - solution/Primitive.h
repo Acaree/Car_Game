@@ -10,7 +10,8 @@ enum PrimitiveTypes
 	Primitive_Plane,
 	Primitive_Cube,
 	Primitive_Sphere,
-	Primitive_Cylinder
+	Primitive_Cylinder,
+	Primitive_Cone
 };
 
 class Primitive
@@ -64,6 +65,18 @@ class Cylinder : public Primitive
 public:
 	Cylinder();
 	Cylinder(float radius, float height);
+	void InnerRender() const;
+public:
+	float radius;
+	float height;
+};
+
+// ============================================
+class Cone : public Primitive
+{
+public:
+	Cone();
+	Cone(float radius, float height);
 	void InnerRender() const;
 public:
 	float radius;

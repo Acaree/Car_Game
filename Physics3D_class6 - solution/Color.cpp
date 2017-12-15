@@ -7,3 +7,4 @@ Color Blue = Color(0.4f, 1.0f, 1.0f);
 Color Black = Color(0.0f, 0.0f, 0.0f);
 Color White = Color(1.0f, 1.0f, 1.0f);
 Color Pink = Color(1.0f, 0.6f, 1.0f);
+Color Grey = Color(0.627f, 0.627f, 0.627f);

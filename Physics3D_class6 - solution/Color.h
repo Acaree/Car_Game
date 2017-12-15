@@ -31,3 +31,4 @@ extern Color Blue;
 extern Color Black;
 extern Color White;
 extern Color Pink;
+extern Color Grey;
