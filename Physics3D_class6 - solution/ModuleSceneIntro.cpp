@@ -74,7 +74,9 @@ bool ModuleSceneIntro::Start()
 		wall_49 = CreateWall(wall49, vec3(1, 2, 95), vec3(79.25, 10.99, 337.2), Blue, -40, vec3(0, 1, 0), false, this);
 		wall_50 = CreateWall(wall50, vec3(1, 2, 95), vec3(98, 10.99, 354), Blue, -40, vec3(0, 1, 0), false, this);
 		wall_51 = CreateWall(wall51, vec3(1, 2, 15), vec3(116.25, 10.99, 297.75), Blue, -65, vec3(0, 1, 0), false, this);
-		wall_52 = CreateWall(wall52, vec3(1, 2, 15), vec3(150, 10.99, 300), Blue, -10, vec3(0, 1, 0), false, this);
+		wall_52 = CreateWall(wall52, vec3(1, 2, 15), vec3(130.5, 10.99, 310.5), Blue, -15, vec3(0, 1, 0), false, this);
+		wall_53 = CreateWall(wall53, vec3(1, 2, 14), vec3(127.35, 10.99, 289.35), Blue, -40, vec3(0, 1, 0), false, this);
+		wall_54 = CreateWall(wall54, vec3(1, 2, 15), vec3(132.75, 10.99, 300), Blue, -40, vec3(0, 1, 0), false, this);
 
 	}
 
@@ -279,6 +281,12 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	wall_52->GetTransform(&wall52.transform);
 	wall52.Render();
+
+	wall_53->GetTransform(&wall53.transform);
+	wall53.Render();
+
+	wall_54->GetTransform(&wall54.transform);
+	wall54.Render();
 
 
 	//Road
