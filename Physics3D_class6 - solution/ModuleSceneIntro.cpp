@@ -81,6 +81,22 @@ bool ModuleSceneIntro::Start()
 		wall_56 = CreateWall(wall56, vec3(1, 2, 30), vec3(142, 10.99, 277), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_57 = CreateWall(wall57, vec3(1, 2, 22), vec3(124.75, 10.99, 254.25), Blue, 40, vec3(0, 1, 0), false, this);
 		wall_58 = CreateWall(wall58, vec3(1, 2, 30), vec3(132.5, 10.99, 250.5), Blue, 40, vec3(0, 1, 0), false, this);
+		wall_59 = CreateWall(wall59, vec3(1, 2, 30), vec3(103.25, 10.99, 243.5), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_60 = CreateWall(wall60, vec3(1, 2, 30), vec3(123, 10.99, 224.35), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_61 = CreateWall(wall61, vec3(1, 2, 15), vec3(106, 10.99, 233), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_62 = CreateWall(wall62, vec3(1, 2, 15), vec3(113, 10.99, 227), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_63 = CreateWall(wall63, vec3(1, 2, 27), vec3(88.25, 10.99, 227), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_64 = CreateWall(wall64, vec3(1, 2, 28), vec3(109, 10.99, 209), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_65 = CreateWall(wall65, vec3(1, 2, 15), vec3(99, 10.99, 224.5), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_66 = CreateWall(wall66, vec3(1, 2, 15), vec3(106, 10.99, 218.5), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_67 = CreateWall(wall67, vec3(1, 2, 29), vec3(74.25, 10.99, 211.25), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_68 = CreateWall(wall68, vec3(1, 2, 29.25), vec3(95.5, 10.99, 192.35), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_69 = CreateWall(wall69, vec3(1, 2, 15), vec3(78, 10.99, 201), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_70 = CreateWall(wall70, vec3(1, 2, 15), vec3(85, 10.99, 195), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_71 = CreateWall(wall71, vec3(1, 2, 27), vec3(60.25, 10.99, 195), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_72 = CreateWall(wall72, vec3(1, 2, 29), vec3(81.5, 10.99, 177), Blue, -100, vec3(0, 1, 0), false, this);
+		wall_73 = CreateWall(wall73, vec3(1, 2, 15), vec3(71, 10.99, 192.5), Blue, 0, vec3(0, 1, 0), false, this);
+		wall_74 = CreateWall(wall74, vec3(1, 2, 15), vec3(78, 10.99, 186.5), Blue, -100, vec3(0, 1, 0), false, this);
 
 	}
 
@@ -113,6 +129,12 @@ bool ModuleSceneIntro::Start()
 	road_25 = CreateWall(road25, vec3(15, 0.2, 19), vec3(131.5, 9.981, 294.75), White, -40, vec3(0, 1, 0), false, this);
 	road_26 = CreateWall(road26, vec3(10, 0.2, 30), vec3(137, 9.98, 276), White, 0, vec3(0, 1, 0), false, this);
 	road_27 = CreateWall(road27, vec3(9, 0.2, 30), vec3(129, 9.979, 253), White, 40, vec3(0, 1, 0), false, this);
+	road_28 = CreateWall(road28, vec3(10, 0.2, 35), vec3(105.25, 9.978, 238.3), White, -100, vec3(0, 1, 0), false, this);
+	road_29 = CreateWall(road29, vec3(10, 0.2, 30), vec3(117.95, 9.977, 224.35), White, 0, vec3(0, 1, 0), false, this);
+	road_30 = CreateWall(road30, vec3(14, 0.2, 55), vec3(86.65, 9.976, 210), White, -100, vec3(0, 1, 0), false, this);
+	road_31 = CreateWall(road31, vec3(14, 0.2, 55), vec3(92, 9.975, 205.35), White, 0, vec3(0, 1, 0), false, this);
+	road_32 = CreateWall(road32, vec3(11, 0.2, 25), vec3(65.75, 9.974, 188), White, 0, vec3(0, 1, 0), false, this);
+	road_33 = CreateWall(road33, vec3(10, 0.2, 25), vec3(74, 9.973, 181), White, -100, vec3(0, 1, 0), false, this);
 
 	cin.height = 5;
 	cin.SetPos(87.5, 12.482, 347.15);
@@ -141,180 +163,229 @@ update_status ModuleSceneIntro::Update(float dt)
 	p.Render();
 
 	//Wall
-	wall_1->GetTransform(&wall1.transform);
-	wall1.Render();
+	{
+		wall_1->GetTransform(&wall1.transform);
+		wall1.Render();
 
-	wall_2->GetTransform(&wall1.transform);
-	wall2.Render();
+		wall_2->GetTransform(&wall1.transform);
+		wall2.Render();
 
-	wall_3->GetTransform(&wall3.transform);
-	wall3.Render();
+		wall_3->GetTransform(&wall3.transform);
+		wall3.Render();
 
-	wall_4->GetTransform(&wall4.transform);
-	wall4.Render();
+		wall_4->GetTransform(&wall4.transform);
+		wall4.Render();
 
-	wall_5->GetTransform(&wall5.transform);
-	wall5.Render();
+		wall_5->GetTransform(&wall5.transform);
+		wall5.Render();
 
-	wall_6->GetTransform(&wall6.transform);
-	wall6.Render();
+		wall_6->GetTransform(&wall6.transform);
+		wall6.Render();
 
-	wall_7->GetTransform(&wall7.transform);
-	wall7.Render();
+		wall_7->GetTransform(&wall7.transform);
+		wall7.Render();
 
-	wall_8->GetTransform(&wall8.transform);
-	wall8.Render();
+		wall_8->GetTransform(&wall8.transform);
+		wall8.Render();
 
-	wall_9->GetTransform(&wall9.transform);
-	wall9.Render();
+		wall_9->GetTransform(&wall9.transform);
+		wall9.Render();
 
-	wall_10->GetTransform(&wall10.transform);
-	wall10.Render();
+		wall_10->GetTransform(&wall10.transform);
+		wall10.Render();
 
-	wall_11->GetTransform(&wall11.transform);
-	wall11.Render();
+		wall_11->GetTransform(&wall11.transform);
+		wall11.Render();
 
-	wall_12->GetTransform(&wall12.transform);
-	wall12.Render();
+		wall_12->GetTransform(&wall12.transform);
+		wall12.Render();
 
-	wall_13->GetTransform(&wall13.transform);
-	wall13.Render();
+		wall_13->GetTransform(&wall13.transform);
+		wall13.Render();
 
-	wall_14->GetTransform(&wall14.transform);
-	wall14.Render();
+		wall_14->GetTransform(&wall14.transform);
+		wall14.Render();
 
-	wall_15->GetTransform(&wall15.transform);
-	wall15.Render();
+		wall_15->GetTransform(&wall15.transform);
+		wall15.Render();
 
-	wall_16->GetTransform(&wall16.transform);
-	wall16.Render();
+		wall_16->GetTransform(&wall16.transform);
+		wall16.Render();
 
-	wall_17->GetTransform(&wall17.transform);
-	wall17.Render();
+		wall_17->GetTransform(&wall17.transform);
+		wall17.Render();
 
-	wall_18->GetTransform(&wall18.transform);
-	wall18.Render();
+		wall_18->GetTransform(&wall18.transform);
+		wall18.Render();
 
-	wall_19->GetTransform(&wall19.transform);
-	wall19.Render();
+		wall_19->GetTransform(&wall19.transform);
+		wall19.Render();
 
-	wall_20->GetTransform(&wall20.transform);
-	wall20.Render();
+		wall_20->GetTransform(&wall20.transform);
+		wall20.Render();
 
-	wall_21->GetTransform(&wall22.transform);
-	wall21.Render();
+		wall_21->GetTransform(&wall22.transform);
+		wall21.Render();
 
-	wall_22->GetTransform(&wall22.transform);
-	wall22.Render();
+		wall_22->GetTransform(&wall22.transform);
+		wall22.Render();
 
-	wall_23->GetTransform(&wall23.transform);
-	wall23.Render();
+		wall_23->GetTransform(&wall23.transform);
+		wall23.Render();
 
-	wall_24->GetTransform(&wall24.transform);
-	wall24.Render();
+		wall_24->GetTransform(&wall24.transform);
+		wall24.Render();
 
-	wall_25->GetTransform(&wall25.transform);
-	wall25.Render();
+		wall_25->GetTransform(&wall25.transform);
+		wall25.Render();
 
-	wall_26->GetTransform(&wall26.transform);
-	wall26.Render();
+		wall_26->GetTransform(&wall26.transform);
+		wall26.Render();
 
-	wall_27->GetTransform(&wall27.transform);
-	wall27.Render();
+		wall_27->GetTransform(&wall27.transform);
+		wall27.Render();
 
-	wall_28->GetTransform(&wall28.transform);
-	wall28.Render();
+		wall_28->GetTransform(&wall28.transform);
+		wall28.Render();
 
-	wall_29->GetTransform(&wall29.transform);
-	wall29.Render();
+		wall_29->GetTransform(&wall29.transform);
+		wall29.Render();
 
-	wall_30->GetTransform(&wall30.transform);
-	wall30.Render();
+		wall_30->GetTransform(&wall30.transform);
+		wall30.Render();
 
-	wall_31->GetTransform(&wall31.transform);
-	wall31.Render();
+		wall_31->GetTransform(&wall31.transform);
+		wall31.Render();
 
-	wall_32->GetTransform(&wall32.transform);
-	wall32.Render();
+		wall_32->GetTransform(&wall32.transform);
+		wall32.Render();
 
-	wall_33->GetTransform(&wall33.transform);
-	wall33.Render();
+		wall_33->GetTransform(&wall33.transform);
+		wall33.Render();
 
-	wall_34->GetTransform(&wall34.transform);
-	wall34.Render();
+		wall_34->GetTransform(&wall34.transform);
+		wall34.Render();
 
-	wall_35->GetTransform(&wall35.transform);
-	wall35.Render();
+		wall_35->GetTransform(&wall35.transform);
+		wall35.Render();
 
-	wall_36->GetTransform(&wall36.transform);
-	wall36.Render();
+		wall_36->GetTransform(&wall36.transform);
+		wall36.Render();
 
-	wall_37->GetTransform(&wall37.transform);
-	wall37.Render();
+		wall_37->GetTransform(&wall37.transform);
+		wall37.Render();
 
-	wall_38->GetTransform(&wall38.transform);
-	wall38.Render();
+		wall_38->GetTransform(&wall38.transform);
+		wall38.Render();
 
-	wall_39->GetTransform(&wall39.transform);
-	wall39.Render();
+		wall_39->GetTransform(&wall39.transform);
+		wall39.Render();
 
-	wall_40->GetTransform(&wall40.transform);
-	wall40.Render();
+		wall_40->GetTransform(&wall40.transform);
+		wall40.Render();
 
-	wall_41->GetTransform(&wall41.transform);
-	wall41.Render();
+		wall_41->GetTransform(&wall41.transform);
+		wall41.Render();
 
-	wall_42->GetTransform(&wall42.transform);
-	wall42.Render();
+		wall_42->GetTransform(&wall42.transform);
+		wall42.Render();
 
-	wall_43->GetTransform(&wall43.transform);
-	wall43.Render();
+		wall_43->GetTransform(&wall43.transform);
+		wall43.Render();
 
-	wall_44->GetTransform(&wall44.transform);
-	wall44.Render();
+		wall_44->GetTransform(&wall44.transform);
+		wall44.Render();
 
-	wall_45->GetTransform(&wall45.transform);
-	wall45.Render();
+		wall_45->GetTransform(&wall45.transform);
+		wall45.Render();
 
-	wall_46->GetTransform(&wall46.transform);
-	wall46.Render();
+		wall_46->GetTransform(&wall46.transform);
+		wall46.Render();
 
-	wall_47->GetTransform(&wall47.transform);
-	wall47.Render();
+		wall_47->GetTransform(&wall47.transform);
+		wall47.Render();
 
-	wall_48->GetTransform(&wall48.transform);
-	wall48.Render();
+		wall_48->GetTransform(&wall48.transform);
+		wall48.Render();
 
-	wall_49->GetTransform(&wall49.transform);
-	wall49.Render();
+		wall_49->GetTransform(&wall49.transform);
+		wall49.Render();
 
-	wall_50->GetTransform(&wall50.transform);
-	wall50.Render();
+		wall_50->GetTransform(&wall50.transform);
+		wall50.Render();
 
-	wall_51->GetTransform(&wall51.transform);
-	wall51.Render();
+		wall_51->GetTransform(&wall51.transform);
+		wall51.Render();
 
-	wall_52->GetTransform(&wall52.transform);
-	wall52.Render();
+		wall_52->GetTransform(&wall52.transform);
+		wall52.Render();
 
-	wall_53->GetTransform(&wall53.transform);
-	wall53.Render();
+		wall_53->GetTransform(&wall53.transform);
+		wall53.Render();
 
-	wall_54->GetTransform(&wall54.transform);
-	wall54.Render();
+		wall_54->GetTransform(&wall54.transform);
+		wall54.Render();
 
-	wall_55->GetTransform(&wall55.transform);
-	wall55.Render();
+		wall_55->GetTransform(&wall55.transform);
+		wall55.Render();
 
-	wall_56->GetTransform(&wall56.transform);
-	wall56.Render();
+		wall_56->GetTransform(&wall56.transform);
+		wall56.Render();
 
-	wall_57->GetTransform(&wall57.transform);
-	wall57.Render();
+		wall_57->GetTransform(&wall57.transform);
+		wall57.Render();
 
-	wall_58->GetTransform(&wall58.transform);
-	wall58.Render();
+		wall_58->GetTransform(&wall58.transform);
+		wall58.Render();
 
+		wall_59->GetTransform(&wall59.transform);
+		wall59.Render();
+
+		wall_60->GetTransform(&wall60.transform);
+		wall60.Render();
+
+		wall_61->GetTransform(&wall61.transform);
+		wall61.Render();
+
+		wall_62->GetTransform(&wall62.transform);
+		wall62.Render();
+
+		wall_63->GetTransform(&wall63.transform);
+		wall63.Render();
+
+		wall_64->GetTransform(&wall64.transform);
+		wall64.Render();
+
+		wall_65->GetTransform(&wall65.transform);
+		wall65.Render();
+
+		wall_66->GetTransform(&wall66.transform);
+		wall66.Render();
+
+		wall_67->GetTransform(&wall67.transform);
+		wall67.Render();
+
+		wall_68->GetTransform(&wall68.transform);
+		wall68.Render();
+
+		wall_69->GetTransform(&wall69.transform);
+		wall69.Render();
+
+		wall_70->GetTransform(&wall70.transform);
+		wall70.Render();
+
+		wall_71->GetTransform(&wall71.transform);
+		wall71.Render();
+
+		wall_72->GetTransform(&wall72.transform);
+		wall72.Render();
+
+		wall_73->GetTransform(&wall73.transform);
+		wall73.Render();
+
+		wall_74->GetTransform(&wall74.transform);
+		wall74.Render();
+	}
 
 	//Road
 	road_1->GetTransform(&road1.transform);
@@ -397,6 +468,24 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_27->GetTransform(&road27.transform);
 	road27.Render();
+
+	road_28->GetTransform(&road28.transform);
+	road28.Render();
+
+	road_29->GetTransform(&road29.transform);
+	road29.Render();
+
+	road_30->GetTransform(&road30.transform);
+	road30.Render();
+
+	road_31->GetTransform(&road31.transform);
+	road31.Render();
+
+	road_32->GetTransform(&road32.transform);
+	road32.Render();
+
+	road_33->GetTransform(&road33.transform);
+	road33.Render();
 
 	cinn->GetTransform(&cin.transform);
 	cin.Render();

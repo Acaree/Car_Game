@@ -34,20 +34,23 @@ public:
 	Cube wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall8, wall9, wall10, wall11, wall12, wall13, wall14, wall15, wall16, wall17, wall18,
 		wall19, wall20, wall21, wall22, wall23, wall24, wall25, wall26, wall27, wall28, wall29, wall30, wall31, wall32, wall33, wall34, wall35,
 		wall36, wall37, wall38, wall39, wall40, wall41, wall42, wall43, wall44, wall45, wall46, wall47, wall48, wall49, wall50, wall51, wall52,
-		wall53, wall54, wall55, wall56, wall57, wall58;
+		wall53, wall54, wall55, wall56, wall57, wall58, wall59, wall60, wall61, wall62, wall63, wall64, wall65, wall66, wall67, wall68, wall69,
+		wall70, wall71, wall72, wall73, wall74;
 
 	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8, *wall_9, *wall_10, *wall_11, *wall_12, *wall_13, *wall_14,
 		*wall_15, *wall_16, *wall_17, *wall_18, *wall_19, *wall_20, *wall_21, *wall_22, *wall_23, *wall_24, *wall_25, *wall_26, *wall_27, *wall_28,
 		*wall_29, *wall_30, *wall_31, *wall_32, *wall_33, *wall_34, *wall_35, *wall_36, *wall_37, *wall_38, *wall_39, *wall_40, *wall_41, *wall_42,
 		*wall_43, *wall_44, *wall_45, *wall_46, *wall_47, *wall_48, *wall_49, *wall_50, *wall_51, *wall_52, *wall_53, *wall_54, *wall_55, *wall_56,
-		*wall_57, *wall_58;
+		*wall_57, *wall_58, *wall_59, *wall_60, *wall_61, *wall_62, *wall_63, *wall_64, *wall_65, *wall_66, *wall_67, *wall_68, *wall_69, *wall_70,
+		*wall_71, *wall_72, *wall_73, *wall_74;
 
 	// Road
 	Cube road1, road2, road3, road4, road5, road6, road7, road8, road9, road10, road11, road12, road13, road14, road15, road16, road17, road18,
-		road19, road20, road21, road22, road23, road24, road25, road26, road27;
+		road19, road20, road21, road22, road23, road24, road25, road26, road27, road28, road29, road30, road31, road32, road33;
 
 	PhysBody3D *road_1, *road_2, *road_3, *road_4, *road_5, *road_6, *road_7, *road_8, *road_9, *road_10, *road_11, *road_12, *road_13, *road_14,
-		*road_15, *road_16, *road_17, *road_18, *road_19, *road_20, *road_21, *road_22, *road_23, *road_24, *road_25, *road_26, *road_27;
+		*road_15, *road_16, *road_17, *road_18, *road_19, *road_20, *road_21, *road_22, *road_23, *road_24, *road_25, *road_26, *road_27, *road_28,
+		*road_29, *road_30, *road_31, *road_32, *road_33;
 
 	
 };
