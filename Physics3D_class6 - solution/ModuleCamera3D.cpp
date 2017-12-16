@@ -52,11 +52,11 @@ update_status ModuleCamera3D::Update(float dt)
 	if (m.translation().y < 2.5)
 		Position.y = 4;
 	else if (m.translation().y > 2.5 && (m.translation().y < 6))
-		Position.y = 7.2;
+		Position.y = 50;
 	else if (m.translation().y > 6 && (m.translation().y < 9))
 		Position.y = 11.4;
 	else
-		Position.y = 60;
+		Position.y = 14.6;
 
 	// Correct distance
 	vec3 cam_to_target = m.translation() - Position;
