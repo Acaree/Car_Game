@@ -52,7 +52,7 @@ update_status ModuleCamera3D::Update(float dt)
 	if (m.translation().y < 2.5)
 		Position.y = 4;
 	else if (m.translation().y > 2.5 && (m.translation().y < 6))
-		Position.y = 50;
+		Position.y = 7.2;
 	else if (m.translation().y > 6 && (m.translation().y < 9))
 		Position.y = 11.4;
 	else
