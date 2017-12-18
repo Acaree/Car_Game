@@ -116,7 +116,7 @@ bool ModuleSceneIntro::Start()
 		wall_89 = CreateWall(wall89, vec3(1, 2, 15), vec3(-132.5, 7.6, 15), Blue, 45, vec3(0, 1, 0), false, this);
 		wall_90 = CreateWall(wall90, vec3(1, 2, 30), vec3(-128, 7.6, 10), Blue, 45, vec3(0, 1, 0), false, this);
 		wall_91 = CreateWall(wall91, vec3(1, 2, 15), vec3(-142.4, 7.6, 15), Blue, -45, vec3(0, 1, 0), false, this);
-		wall_92 = CreateWall(wall92, vec3(1, 2, 30), vec3(-148.5, 7.6, 10), Blue, -45, vec3(0, 1, 0), false, this);
+		wall_92 = CreateWall(wall92, vec3(1, 2, 30), vec3(-149.5, 7.6, 9.6), Blue, -45, vec3(0, 1, 0), false, this);
 		wall_93 = CreateWall(wall93, vec3(1, 2, 20), vec3(-147.5, 7.6, 30), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_94 = CreateWall(wall94, vec3(1, 2, 20), vec3(-159, 7.6, 30), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_95 = CreateWall(wall95, vec3(1, 2, 21), vec3(-147.5, 5.9, 50.15), Blue, 10, vec3(1, 0, 0), false, this);
@@ -149,6 +149,18 @@ bool ModuleSceneIntro::Start()
 		wall_122 = CreateWall(wall122, vec3(1, 2, 30), vec3(-151, 1, -21), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_123 = CreateWall(wall123, vec3(1, 2, 30), vec3(-150.75, 1, 7), Blue, -30, vec3(0, 1, 0), false, this);
 		wall_124 = CreateWall(wall124, vec3(1, 2, 20), vec3(-156, 1, 2.4), Blue, -30, vec3(0, 1, 0), false, this);
+		wall_125 = CreateWall(wall125, vec3(1, 2, 30), vec3(-172, 1, 25), Blue, -70, vec3(0, 1, 0), false, this);
+		wall_126 = CreateWall(wall126, vec3(1, 2, 20), vec3(-170, 1, 14), Blue, -70, vec3(0, 1, 0), false, this);
+		wall_127 = CreateWall(wall127, vec3(1, 2, 30), vec3(-193.25, 1, 17.75), Blue, 30, vec3(0, 1, 0), false, this);
+		wall_128 = CreateWall(wall128, vec3(1, 2, 20), vec3(-183.85, 1, 8.75), Blue, 30, vec3(0, 1, 0), false, this);
+		wall_129 = CreateWall(wall129, vec3(1, 2, 100), vec3(-192, 1, -44), Blue, -10, vec3(0, 1, 0), false, this);
+		wall_130 = CreateWall(wall130, vec3(1, 2, 100), vec3(-180, 1, -48.75), Blue, -10, vec3(0, 1, 0), false, this);
+		wall_131 = CreateWall(wall131, vec3(1, 2, 30), vec3(-176, 1, -106), Blue, -30, vec3(0, 1, 0), false, this);
+		wall_132 = CreateWall(wall132, vec3(1, 2, 20), vec3(-166.375, 1, -106.5), Blue, -30, vec3(0, 1, 0), false, this);
+		wall_133 = CreateWall(wall133, vec3(1, 2, 25), vec3(-159, 1, -127), Blue, -50, vec3(0, 1, 0), false, this);
+		wall_134 = CreateWall(wall134, vec3(1, 2, 20), vec3(-154, 1, -121), Blue, -50, vec3(0, 1, 0), false, this);
+		wall_135 = CreateWall(wall135, vec3(1, 2, 80), vec3(-107, 1, -134), Blue, -90, vec3(0, 1, 0), false, this);
+		wall_136 = CreateWall(wall136, vec3(1, 2, 84), vec3(-105, 1, -127), Blue, -90, vec3(0, 1, 0), false, this);
 
 	}
 
@@ -198,7 +210,7 @@ bool ModuleSceneIntro::Start()
 	road_39 = CreateWall(road39, vec3(10, 0.2, 20), vec3(-122.25, 8.25, 49.5), White, -10, vec3(1, 0, 0), false, this);
 	road_40 = CreateWall(road40, vec3(10, 0.2, 20), vec3(-122.25, 6.6, 30), White, 0, vec3(1, 0, 0), false, this);
 	road_41 = CreateWall(road41, vec3(7, 0.2, 29), vec3(-131, 6.599, 12), White, 45, vec3(0, 1, 0), false, this);
-	road_42 = CreateWall(road42, vec3(7, 0.2, 29), vec3(-145, 6.598, 12), White, -45, vec3(0, 1, 0), false, this);
+	road_42 = CreateWall(road42, vec3(8, 0.2, 25), vec3(-148, 6.598, 14.45), White, -45, vec3(0, 1, 0), false, this);
 	road_43 = CreateWall(road43, vec3(11, 0.2, 21), vec3(-153.25, 6.597, 30), White, 0, vec3(1, 0, 0), false, this);
 	road_44 = CreateWall(road44, vec3(11, 0.2, 20), vec3(-153.25, 4.9, 50.15), White, 10, vec3(1, 0, 0), false, this);
 	road_45 = CreateWall(road45, vec3(12, 0.2, 12), vec3(-153.25, 3.25, 65), White, 0, vec3(1, 0, 0), false, this);
@@ -215,6 +227,11 @@ bool ModuleSceneIntro::Start()
 	road_56 = CreateWall(road56, vec3(8, 0.2, 20), vec3(-147, 1.5, -43.75), White, 10, vec3(1, 0, 0), false, this);
 	road_57 = CreateWall(road57, vec3(8, 0.2, 30), vec3(-147, 0, -21), White, 0, vec3(0, 1, 0), false, this);
 	road_58 = CreateWall(road58, vec3(8, 0.2, 30), vec3(-154, -0.001, 5.45), White, -30, vec3(0, 1, 0), false, this);
+	road_59 = CreateWall(road59, vec3(10, 0.2, 30), vec3(-174.7, -0.002, 21), White, -70, vec3(0, 1, 0), false, this);
+	road_60 = CreateWall(road60, vec3(12, 0.2, 25), vec3(-189.25, -0.003, 12), White, 30, vec3(0, 1, 0), false, this);
+	road_61 = CreateWall(road61, vec3(12, 0.2, 105), vec3(-186, -0.004, -47), White, -10, vec3(0, 1, 0), false, this);
+	road_62 = CreateWall(road62, vec3(8, 0.2, 25), vec3(-171, -0.005, -107), White, -30, vec3(0, 1, 0), false, this);
+	road_63 = CreateWall(road63, vec3(8, 0.2, 25), vec3(-156, -0.006, -124.5), White, -50, vec3(0, 1, 0), false, this);
 
 	cin.height = 5;
 	cin.SetPos(87.5, 12.482, 347.15);
@@ -615,6 +632,42 @@ update_status ModuleSceneIntro::Update(float dt)
 
 		wall_124->GetTransform(&wall124.transform);
 		wall124.Render();
+
+		wall_125->GetTransform(&wall125.transform);
+		wall125.Render();
+
+		wall_126->GetTransform(&wall126.transform);
+		wall126.Render();
+
+		wall_127->GetTransform(&wall127.transform);
+		wall127.Render();
+
+		wall_128->GetTransform(&wall128.transform);
+		wall128.Render();
+
+		wall_129->GetTransform(&wall129.transform);
+		wall129.Render();
+
+		wall_130->GetTransform(&wall130.transform);
+		wall130.Render();
+
+		wall_131->GetTransform(&wall131.transform);
+		wall131.Render();
+
+		wall_132->GetTransform(&wall132.transform);
+		wall132.Render();
+
+		wall_133->GetTransform(&wall133.transform);
+		wall133.Render();
+
+		wall_134->GetTransform(&wall134.transform);
+		wall134.Render();
+
+		wall_135->GetTransform(&wall135.transform);
+		wall135.Render();
+
+		wall_136->GetTransform(&wall136.transform);
+		wall136.Render();
 	}
 
 	//Road
@@ -791,6 +844,21 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_58->GetTransform(&road58.transform);
 	road58.Render();
+
+	road_59->GetTransform(&road59.transform);
+	road59.Render();
+
+	road_60->GetTransform(&road60.transform);
+	road60.Render();
+
+	road_61->GetTransform(&road61.transform);
+	road61.Render();
+
+	road_62->GetTransform(&road62.transform);
+	road62.Render();
+
+	road_63->GetTransform(&road63.transform);
+	road63.Render();
 
 	cinn->GetTransform(&cin.transform);
 	cin.Render();
