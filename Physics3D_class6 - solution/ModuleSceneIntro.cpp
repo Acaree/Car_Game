@@ -21,7 +21,10 @@ bool ModuleSceneIntro::Start()
 	App->camera->LookAt(vec3(0, 0, 0));
 
 	// Walls--------------------------------------------------------------------
-	{
+	{//struct
+		//defwall
+		//for
+		//fichero
 
 		wall_1 = CreateWall(wall1, vec3(1, 2, 200), vec3(6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_2 = CreateWall(wall2, vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
