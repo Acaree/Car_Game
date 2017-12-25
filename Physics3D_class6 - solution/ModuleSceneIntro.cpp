@@ -25,8 +25,13 @@ bool ModuleSceneIntro::Start()
 		//defwall
 		//for
 		//fichero
+		pugi::xml_document track_file;
+		pugi::xml_parse_result result = track_file.load_file("track.xml");
+		pugi::xml_node wall_node = track_file.child("track").child("walls").child("wall");
 
-		wall_1 = CreateWall(wall1, vec3(1, 2, 200), vec3(6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
+		
+		wall_1 = CreateWall(wall1, vec3(wall_node.attribute("x1").as_float(), wall_node.attribute("y1").as_float(), wall_node.attribute("z1").as_float()), vec3(wall_node.attribute("x2").as_float(), wall_node.attribute("y2").as_float(), wall_node.attribute("z2").as_float()), Blue, wall_node.attribute("num").as_float(), vec3(wall_node.attribute("x3").as_float(), wall_node.attribute("y3").as_float(), wall_node.attribute("z3").as_float()), wall_node.attribute("bool").as_bool(), this);
+		//wall_1 = CreateWall(wall1 , vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_2 = CreateWall(wall2, vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_3 = CreateWall(wall3, vec3(1, 2, 20), vec3(6, 2.5, 100), Blue, -10, vec3(1, 0, 0), false, this);
 		wall_4 = CreateWall(wall4, vec3(1, 2, 20), vec3(-6, 2.5, 100), Blue, -10, vec3(1, 0, 0), false, this);

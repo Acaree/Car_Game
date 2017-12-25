@@ -1,0 +1,6 @@
+<track>
+  <walls>
+    <wall x1="1" y1="2" z1="200" x2="6" y2="1" z2="0" color="Blue" num1 ="0" x3="0" y3="1" z3="0" bool="false"/>
+  </walls>
+</track>
+  
