@@ -23,7 +23,8 @@ public:
 
 	void OnCollision(PhysBody3D* body1, PhysBody3D* body2);
 
-	PhysBody3D* CreateWall(Cube &cube, vec3 size, vec3 pos, Color color, float angle, vec3 pivot, bool isSensor, Module* Callback);
+	PhysBody3D* CreateCubePhysbody(Cube* cube,bool isSensor, Module* Callback);
+	Cube* CreateCube(vec3 size, vec3 pos, Color color, float angle, vec3 pivot);
 
 public:
 	Cube s;
@@ -33,6 +34,7 @@ public:
 	PhysBody3D *cinn;
 
 	// Walls
+	p2List<Cube*> wall;
 	Cube wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall8, wall9, wall10, wall11, wall12, wall13, wall14, wall15, wall16, wall17, wall18,
 		wall19, wall20, wall21, wall22, wall23, wall24, wall25, wall26, wall27, wall28, wall29, wall30, wall31, wall32, wall33, wall34, wall35,
 		wall36, wall37, wall38, wall39, wall40, wall41, wall42, wall43, wall44, wall45, wall46, wall47, wall48, wall49, wall50, wall51, wall52,
@@ -43,6 +45,7 @@ public:
 		wall119, wall120, wall121, wall122, wall123, wall124, wall125, wall126, wall127, wall128, wall129, wall130, wall131, wall132, wall133,
 		wall134, wall135, wall136, wall137, wall138, wall139, wall140;
 
+	p2List<PhysBody3D*> wall_body;
 	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8, *wall_9, *wall_10, *wall_11, *wall_12, *wall_13, *wall_14,
 		*wall_15, *wall_16, *wall_17, *wall_18, *wall_19, *wall_20, *wall_21, *wall_22, *wall_23, *wall_24, *wall_25, *wall_26, *wall_27, *wall_28,
 		*wall_29, *wall_30, *wall_31, *wall_32, *wall_33, *wall_34, *wall_35, *wall_36, *wall_37, *wall_38, *wall_39, *wall_40, *wall_41, *wall_42,

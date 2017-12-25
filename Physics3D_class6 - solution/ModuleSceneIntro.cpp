@@ -21,7 +21,7 @@ bool ModuleSceneIntro::Start()
 	App->camera->LookAt(vec3(0, 0, 0));
 
 	// Walls--------------------------------------------------------------------
-	{//struct
+	//struct
 		//defwall
 		//for
 		//fichero
@@ -29,10 +29,17 @@ bool ModuleSceneIntro::Start()
 		pugi::xml_parse_result result = track_file.load_file("track.xml");
 		pugi::xml_node wall_node = track_file.child("track").child("walls").child("wall");
 
-		
+		while (wall_node != nullptr) {
+			Cube* cube=CreateCube(vec3(wall_node.attribute("x1").as_float(), wall_node.attribute("y1").as_float(), wall_node.attribute("z1").as_float()), vec3(wall_node.attribute("x2").as_float(), wall_node.attribute("y2").as_float(), wall_node.attribute("z2").as_float()), Blue, wall_node.attribute("num").as_float(), vec3(wall_node.attribute("x3").as_float(), wall_node.attribute("y3").as_float(), wall_node.attribute("z3").as_float()));
+			wall_body.add(CreateCubePhysbody(cube,wall_node.attribute("bool").as_bool(), this));
+			wall.add(cube);
+			wall_node = wall_node.next_sibling();
+		}
+
+		/*
 		wall_1 = CreateWall(wall1, vec3(wall_node.attribute("x1").as_float(), wall_node.attribute("y1").as_float(), wall_node.attribute("z1").as_float()), vec3(wall_node.attribute("x2").as_float(), wall_node.attribute("y2").as_float(), wall_node.attribute("z2").as_float()), Blue, wall_node.attribute("num").as_float(), vec3(wall_node.attribute("x3").as_float(), wall_node.attribute("y3").as_float(), wall_node.attribute("z3").as_float()), wall_node.attribute("bool").as_bool(), this);
 		//wall_1 = CreateWall(wall1 , vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
-		wall_2 = CreateWall(wall2, vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
+		//wall_2 = CreateWall(wall2, vec3(1, 2, 200), vec3(-6, 1, 0), Blue, 0, vec3(0, 1, 0), false, this);
 		wall_3 = CreateWall(wall3, vec3(1, 2, 20), vec3(6, 2.5, 100), Blue, -10, vec3(1, 0, 0), false, this);
 		wall_4 = CreateWall(wall4, vec3(1, 2, 20), vec3(-6, 2.5, 100), Blue, -10, vec3(1, 0, 0), false, this);
 		wall_5 = CreateWall(wall5, vec3(1, 2, 50), vec3(6, 4.25, 134.75), Blue, 0, vec3(0, 1, 0), false, this);
@@ -248,7 +255,7 @@ bool ModuleSceneIntro::Start()
 	road_63 = CreateWall(road63, vec3(8, 0.2, 25), vec3(-156, -0.006, -124.5), White, -50, vec3(0, 1, 0), false, this);
 	road_64 = CreateWall(road64, vec3(10, 0.2, 125), vec3(-87, -0.007, -129.5), White, -90, vec3(0, 1, 0), false, this);
 	road_65 = CreateWall(road65, vec3(9, 0.2, 40), vec3(-14, -0.008, -117), White, 40, vec3(0, 1, 0), false, this);
-
+	*/
 	cin.height = 5;
 	cin.SetPos(87.5, 12.482, 347.15);
 	cin.radius = 2;
@@ -276,13 +283,17 @@ update_status ModuleSceneIntro::Update(float dt)
 	p.Render();
 
 	//Wall
-	{
-		wall_1->GetTransform(&wall1.transform);
-		wall1.Render();
-
-		wall_2->GetTransform(&wall1.transform);
-		wall2.Render();
-
+	p2List_item <PhysBody3D*>* wall_render_body = wall_body.getFirst();
+	p2List_item <Cube*>* wall_render = wall.getFirst();
+		while (wall_render != nullptr) {
+			wall_render_body->data->GetTransform(&wall_render->data->transform);
+			wall_render->data->Render();
+			wall_render = wall_render->next;
+			wall_render_body = wall_render_body->next;
+		}
+		//wall_2->GetTransform(&wall1.transform);
+		//wall2.Render();
+		/*
 		wall_3->GetTransform(&wall3.transform);
 		wall3.Render();
 
@@ -887,7 +898,7 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	road_65->GetTransform(&road65.transform);
 	road65.Render();
-
+	*/
 	cinn->GetTransform(&cin.transform);
 	cin.Render();
 
@@ -899,15 +910,20 @@ void ModuleSceneIntro::OnCollision(PhysBody3D* body1, PhysBody3D* body2)
 	LOG("Hit!");
 }
 
-PhysBody3D* ModuleSceneIntro::CreateWall(Cube &cube, vec3 size, vec3 pos, Color color, float angle, vec3 pivot, bool isSensor, Module* Callback) {
+PhysBody3D* ModuleSceneIntro::CreateCubePhysbody(Cube* cube,bool isSensor, Module* Callback) {
 
 	PhysBody3D* wall_pbody;
-	cube.size = size;
-	cube.SetPos(pos.x,pos.y,pos.z);
-	cube.color = color;
-	cube.SetRotation(angle, pivot);
-	wall_pbody = App->physics->AddBody(cube, 0.0f);
+	wall_pbody = App->physics->AddBody(*cube, 0.0f);
 	wall_pbody->SetAsSensor(isSensor);
 	wall_pbody->collision_listeners.add(Callback);
 	return wall_pbody;
+}
+
+Cube* ModuleSceneIntro::CreateCube(vec3 size, vec3 pos, Color color, float angle, vec3 pivot) {
+	Cube* cube= new Cube;
+	cube->size = size;
+	cube->SetPos(pos.x, pos.y, pos.z);
+	cube->color = color;
+	cube->SetRotation(angle, pivot);
+	return cube;
 }
