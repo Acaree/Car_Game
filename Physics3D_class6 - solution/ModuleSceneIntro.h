@@ -43,7 +43,7 @@ public:
 		wall87, wall88, wall89, wall90, wall91, wall92, wall93, wall94, wall95, wall96, wall97, wall98, wall99, wall100, wall101, wall102, wall103,
 		wall104, wall105, wall106, wall107, wall108, wall109, wall110, wall111, wall112, wall113, wall114, wall115, wall116, wall117, wall118,
 		wall119, wall120, wall121, wall122, wall123, wall124, wall125, wall126, wall127, wall128, wall129, wall130, wall131, wall132, wall133,
-		wall134, wall135, wall136, wall137, wall138, wall139, wall140;
+		wall134, wall135, wall136, wall137, wall138;
 
 	p2List<PhysBody3D*> wall_body;
 	PhysBody3D *wall_1, *wall_2, *wall_3, *wall_4, *wall_5, *wall_6, *wall_7, *wall_8, *wall_9, *wall_10, *wall_11, *wall_12, *wall_13, *wall_14,
@@ -56,14 +56,16 @@ public:
 		*wall_99, *wall_100, *wall_101, *wall_102, *wall_103, *wall_104, *wall_105, *wall_106, *wall_107, *wall_108, *wall_109, *wall_110, *wall_111,
 		*wall_112, *wall_113, *wall_114, *wall_115, *wall_116, *wall_117, *wall_118, *wall_119, *wall_120, *wall_121, *wall_122, *wall_123, *wall_124,
 		*wall_125, *wall_126, *wall_127, *wall_128, *wall_129, *wall_130, *wall_131, *wall_132, *wall_133, *wall_134, *wall_135, *wall_136, *wall_137,
-		*wall_138, *wall_139, *wall_140;
+		*wall_138;
 
 	// Road
+	p2List<Cube*> road;
 	Cube road1, road2, road3, road4, road5, road6, road7, road8, road9, road10, road11, road12, road13, road14, road15, road16, road17, road18,
 		road19, road20, road21, road22, road23, road24, road25, road26, road27, road28, road29, road30, road31, road32, road33, road34, road35,
 		road36, road37, road38, road39, road40, road41, road42, road43, road44, road45, road46, road47, road48, road49, road50, road51, road52,
 		road53, road54, road55, road56, road57, road58, road59, road60, road61, road62, road63, road64, road65, road66;
 
+	p2List<PhysBody3D*> road_body;
 	PhysBody3D *road_1, *road_2, *road_3, *road_4, *road_5, *road_6, *road_7, *road_8, *road_9, *road_10, *road_11, *road_12, *road_13, *road_14,
 		*road_15, *road_16, *road_17, *road_18, *road_19, *road_20, *road_21, *road_22, *road_23, *road_24, *road_25, *road_26, *road_27, *road_28,
 		*road_29, *road_30, *road_31, *road_32, *road_33, *road_34, *road_35, *road_36, *road_37, *road_38, *road_39, *road_40, *road_41, *road_42,
