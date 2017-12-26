@@ -30,7 +30,7 @@ bool ModuleSceneIntro::Start()
 		pugi::xml_node wall_node = track_file.child("track").child("walls").child("wall");
 
 		while (wall_node != nullptr) {
-			Cube* cube=CreateCube(vec3(wall_node.attribute("x1").as_float(), wall_node.attribute("y1").as_float(), wall_node.attribute("z1").as_float()), vec3(wall_node.attribute("x2").as_float(), wall_node.attribute("y2").as_float(), wall_node.attribute("z2").as_float()), Blue, wall_node.attribute("num").as_float(), vec3(wall_node.attribute("x3").as_float(), wall_node.attribute("y3").as_float(), wall_node.attribute("z3").as_float()));
+			Cube* cube=CreateCube(vec3(wall_node.attribute("x1").as_float(), wall_node.attribute("y1").as_float(), wall_node.attribute("z1").as_float()), vec3(wall_node.attribute("x2").as_float(), wall_node.attribute("y2").as_float(), wall_node.attribute("z2").as_float()), Color(wall_node.attribute("r").as_float(), wall_node.attribute("g").as_float(), wall_node.attribute("b").as_float()), wall_node.attribute("num").as_float(), vec3(wall_node.attribute("x3").as_float(), wall_node.attribute("y3").as_float(), wall_node.attribute("z3").as_float()));
 			wall_body.add(CreateCubePhysbody(cube,wall_node.attribute("bool").as_bool(), this));
 			wall.add(cube);
 			wall_node = wall_node.next_sibling();
