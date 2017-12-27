@@ -4,6 +4,7 @@
 #include "Primitive.h"
 #include "PhysBody3D.h"
 
+
 ModuleSceneIntro::ModuleSceneIntro(Application* app, bool start_enabled) : Module(app, start_enabled)
 {
 }
@@ -61,6 +62,13 @@ bool ModuleSceneIntro::CleanUp()
 // Update
 update_status ModuleSceneIntro::Update(float dt)
 {
+	if (App->input->GetKey(SDL_SCANCODE_T) == KEY_DOWN) {
+		lap_timer.Start();
+	}
+
+	if (App->input->GetKey(SDL_SCANCODE_P) == KEY_DOWN) {
+		Uint32 lap_time=lap_timer.Read();
+	}
 
 	p2List_item <PhysBody3D*>* wall_render_body = wall_body.getFirst();
 	p2List_item <Cube*>* wall_render = wall.getFirst();
