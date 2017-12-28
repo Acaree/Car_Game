@@ -47,6 +47,25 @@ bool ModuleSceneIntro::Start()
 	cinn = App->physics->AddBody(cin, 0.0f);
 	cinn->collision_listeners.add(this);
 
+	stat.size = vec3(1, 12, 0.25);
+	stat.SetPos(0, 4, 1);
+	stat.color = Blue;
+	statt = App->physics->AddBody(stat, 10000.0f);
+
+	stat2.height = 2;
+	stat2.SetPos(0, 4, 3);
+	stat2.radius = 0.1f;
+	stat2.SetRotation(90, vec3(0, 1, 0));
+	stat2.color = Blue;
+	statt2 = App->physics->AddBody(stat2, 10000.0f);
+
+	//statt->GetBody().set;
+
+	statt->GetBody()->setLinearFactor(btVector3(0, 0, 0));
+	statt2->GetBody()->setLinearFactor(btVector3(0, 1, 0));
+
+	App->physics->AddConstraintHinge(*statt2, *statt, vec3(0, 0, 0), vec3(0, 0, 0), vec3(1, 0, 0), vec3(0, 0, 0), true, true);
+
 	return ret;
 }
 
@@ -82,6 +101,12 @@ update_status ModuleSceneIntro::Update(float dt)
 
 	cinn->GetTransform(&cin.transform);
 	cin.Render();
+
+	statt->GetTransform(&stat.transform);
+	stat.Render();
+
+	//statt2->GetTransform(&stat2.transform);
+	//stat2.Render();
 
 	return UPDATE_CONTINUE;
 }
