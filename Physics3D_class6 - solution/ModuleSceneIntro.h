@@ -3,6 +3,7 @@
 #include "p2DynArray.h"
 #include "Globals.h"
 #include "Primitive.h"
+#include "Timer.h"
 #include "PugiXml/src/pugiconfig.hpp"
 #include "PugiXml/src/pugixml.hpp"
 
@@ -42,6 +43,8 @@ public:
 
 	p2List<PhysBody3D*> wall_body;
 	PhysBody3D *wall_1;
+
+	Timer lap_timer;
 
 	// Road
 	p2List<Cube*> road;
