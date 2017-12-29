@@ -97,10 +97,10 @@ bool ModulePlayer::Start()
 	car.wheels[3].steering = false;
 
 	vehicle = App->physics->AddVehicle(car);
-	vehicle->SetPos(0,0,-5);
+	vehicle->SetPos(0,0,0);
 	vehicle->GetTransform(&matrix);
 	App->camera->Follow(vehicle, 10, 10, 1.f);
-	
+
 	return true;
 }
 
@@ -119,12 +119,18 @@ update_status ModulePlayer::Update(float dt)
 
 	if(App->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT)
 	{
-		if (App->player->vehicle->GetKmh() <= 100)
-			acceleration = ACCELERATION;
-		else
-			acceleration = 0;
-
-		
+		if (bababooey == false) {
+			if (vehicle->GetKmh() <= 100)
+				acceleration = ACCELERATION;
+			else
+				acceleration = 0;
+		}
+		else {
+			if (vehicle->GetKmh() >= -100)
+				acceleration = -ACCELERATION;
+			else
+				acceleration = 0;
+		}
 	}
 
 	if(App->input->GetKey(SDL_SCANCODE_LEFT) == KEY_REPEAT)
@@ -146,7 +152,63 @@ update_status ModulePlayer::Update(float dt)
 
 	if (App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_REPEAT)
 	{
+		if (bababooey == false)
 		acceleration = -ACCELERATION / 2;
+		else
+		acceleration = ACCELERATION / 2;
+	}
+
+	if (App->input->GetKey(SDL_SCANCODE_RCTRL) == KEY_REPEAT)
+	{
+		brake = BRAKE_POWER * 10000;
+		vehicle->SetTransform(&matrix);
+		//vehicle->SetPos(0, 0, 0);
+
+		switch (App->scene_intro->checkpoint)
+		{
+		case 0:
+			vehicle->SetPos(0, 0, 0);
+			App->camera->Move(0, 0, -10);
+			vehicle->Bababooey2();
+			bababooey = false;
+			break;
+		case 1:
+			vehicle->SetPos(-73,3.2,247.9);
+			App->camera->Move(-73,3.2, 237.9);
+			vehicle->Bababooey2();
+			bababooey = false;
+			break;
+		case 2:
+			vehicle->SetPos(30, 10, 415.2);
+			App->camera->Move(30, 10, 425.2);
+			vehicle->Bababooey();
+			bababooey = true;
+			break;
+		case 3:
+			vehicle->SetPos(129,10,253);
+			App->camera->Move(129, 10, 263);
+			vehicle->Bababooey();
+			bababooey = true;
+			break;
+		case 4:
+			vehicle->SetPos(-122.25,10,73.3);
+			App->camera->Move(-122.25, 10, 83.3);
+			vehicle->Bababooey();
+			bababooey = true;
+			break;
+		case 5:
+			vehicle->SetPos(-76.5,3,77);
+			App->camera->Move(-76.5, 3, 87);
+			vehicle->Bababooey();
+			bababooey = true;
+			break;
+		case 6:
+			vehicle->SetPos(-186,0,-47);
+			App->camera->Move(-186, 0, -37);
+			vehicle->Bababooey();
+			bababooey = true;
+			break;
+		}
 	}
 
 	vehicle->ApplyEngineForce(acceleration);
@@ -156,11 +218,8 @@ update_status ModulePlayer::Update(float dt)
 	vehicle->Render();
 
 	char title[80];
-	sprintf_s(title, "%.1f Km/h", vehicle->GetKmh());
+	sprintf_s(title, "%i laps", App->scene_intro->laps);
 	App->window->SetTitle(title);
 
 	return UPDATE_CONTINUE;
 }
-
-
-

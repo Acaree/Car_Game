@@ -207,4 +207,18 @@
     <road x=" 10" y="0.2" z=" 125" posx="    -87" posy="-0.007" posz=" -129.5" angle =" -90" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="1.0"/>
     <road x="  9" y="0.2" z="  40" posx="    -14" posy="-0.008" posz="   -117" angle ="  40" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="1.0"/>
   </roads>
+
+  <!--<checks>
+    <check x="12" y="0.5" z="0.1" posx="      0" posy="     1" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x="12" y="0.5" z="0.1" posx="    -73" posy="   4.2" posz="247.9" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x="17" y="0.5" z="0.1" posx="     30" posy="    11" posz="415.2" angle ="-40" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x=" 9" y="0.5" z="0.1" posx="    129" posy="    11" posz="  253" angle =" 40" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x="10" y="0.5" z="0.1" posx="-122.25" posy="    11" posz=" 73.3" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x="11" y="0.5" z="0.1" posx="  -76.5" posy="     4" posz="   77" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+    <check x="12" y="0.5" z="0.1" posx="   -186" posy="     1" posz="  -47" angle ="-10" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
+  </checks>-->
+  
+  <!--<helixs>
+    <helix x="  1" y="12" z="0.25" posx="    0" posy="4" posz="  1" angle ="  0" rotx="0" roty="1" rotz="0" r="0.0" g="0.0" b="1.0"/>
+  </helixs>-->
 </track>

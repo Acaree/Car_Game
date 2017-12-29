@@ -148,10 +148,11 @@ void ModuleCamera3D::LookAt( const vec3 &Spot)
 
 
 // -----------------------------------------------------------------
-void ModuleCamera3D::Move(const vec3 &Movement)
+void ModuleCamera3D::Move(float x, float y, float z)
 {
-	Position += Movement;
-	Reference += Movement;
+	Position.x = x;
+	Position.y = y+4;
+	Position.z = z;
 
 	CalculateViewMatrix();
 }

@@ -49,9 +49,13 @@ public:
 	void ApplyEngineForce(float force);
 	void Brake(float force);
 	void Turn(float degrees);
+	void Bababooey();
+	void Bababooey2();
 	float GetKmh() const;
 public:
 
+	mat4x4 transform;
+	btRigidBody* body;
 	VehicleInfo info;
 	btRaycastVehicle* vehicle;
 };
