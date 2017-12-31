@@ -162,7 +162,6 @@ update_status ModulePlayer::Update(float dt)
 	{
 		brake = BRAKE_POWER * 10000;
 		vehicle->SetTransform(&matrix);
-		//vehicle->SetPos(0, 0, 0);
 
 		switch (App->scene_intro->checkpoint)
 		{
@@ -218,7 +217,7 @@ update_status ModulePlayer::Update(float dt)
 	vehicle->Render();
 
 	char title[80];
-	sprintf_s(title, "%i laps", App->scene_intro->laps);
+	sprintf_s(title,"Time: %i Lap: %i", App->scene_intro->lap_timer.Read(), App->scene_intro->laps);
 	App->window->SetTitle(title);
 
 	return UPDATE_CONTINUE;
