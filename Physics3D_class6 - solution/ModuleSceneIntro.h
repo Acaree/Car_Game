@@ -28,7 +28,9 @@ public:
 	//PhysBody3D* CreateHelixPhysbody(Cube* cube);
 	Cube* CreateCube(vec3 size, vec3 pos, Color color, float angle, vec3 pivot);
 	PhysBody3D* CreateConePhysbody(Cone* cube, Module* Callback);
-	Cone* CreateCone(vec3 pos);
+	Cone* CreateCone(float h, vec3 pos, float r);
+	PhysBody3D* CreateSphePhysbody(Sphere* sphe, Module* Callback);
+	Sphere* CreateSphe(vec3 pos);
 	PhysBody3D* CreateCheckPoint(Cube &cube, vec3 size, vec3 pos, bool isSensor, Module* Callback);
 	PhysBody3D* CreateHelix(Cube &cube, vec3 pos, float angle);
 	PhysBody3D* CreateMotor(Cylinder &cylinder, vec3 pos, float angle);
@@ -47,6 +49,13 @@ public:
 
 	p2List<PhysBody3D*> cone_body;
 	PhysBody3D *cone_1;
+
+	//Spheres
+	p2List<Sphere*> sphere;
+	Sphere sphere1;
+
+	p2List<PhysBody3D*> sphere_body;
+	PhysBody3D *sphere_1;
 
 	// Walls
 	p2List<Cube*> wall;
@@ -73,6 +82,8 @@ public:
 	bool halfLap = false;
 	bool finalLap = false;
 	uint laps = 1;
+
+	uint checkp, fl;
 
 	//// Helix
 	//p2List<Cube*> helix;

@@ -19,13 +19,16 @@ bool ModuleSceneIntro::Start()
 	LOG("Loading Intro assets");
 	bool ret = true;
 
-	App->audio->PlayMusic("Audio/Music.ogg",0);
+	App->audio->PlayMusic("Audio/Music/Theme.ogg",0);
+	checkp = App->audio->LoadFx("Audio/Fx/Check.wav");
+	fl = App->audio->LoadFx("Audio/Fx/FinalLap.wav");
 
 	pugi::xml_document track_file;
 	pugi::xml_parse_result result = track_file.load_file("track.xml");
 	pugi::xml_node wall_node = track_file.child("track").child("walls").child("wall");
 	pugi::xml_node road_node = track_file.child("track").child("roads").child("road");
 	pugi::xml_node cone_node = track_file.child("track").child("cones").child("cone");
+	pugi::xml_node sphe_node = track_file.child("track").child("sphes").child("sphe");
 	//pugi::xml_node check_node = track_file.child("track").child("checks").child("check");
 	//pugi::xml_node helix_node = track_file.child("track").child("helixs").child("helix");
 
@@ -44,10 +47,18 @@ bool ModuleSceneIntro::Start()
 	}
 
 	while (cone_node != nullptr) {
-		Cone* coni = CreateCone(vec3(cone_node.attribute("posx").as_float(), cone_node.attribute("posy").as_float(), cone_node.attribute("posz").as_float()));
+		Cone* coni = CreateCone(cone_node.attribute("h").as_float(), vec3(cone_node.attribute("posx").as_float(), cone_node.attribute("posy").as_float(), cone_node.attribute("posz").as_float()), cone_node.attribute("r").as_float());
 		cone_body.add(CreateConePhysbody(coni, this));
 		cone.add(coni);
 		cone_node = cone_node.next_sibling();
+	}
+
+
+	while (sphe_node != nullptr) {
+		Sphere* sphi = CreateSphe(vec3(sphe_node.attribute("posx").as_float(), sphe_node.attribute("posy").as_float(), sphe_node.attribute("posz").as_float()));
+		sphere_body.add(CreateSphePhysbody(sphi, this));
+		sphere.add(sphi);
+		sphe_node = sphe_node.next_sibling();
 	}
 
 	//while (check_node != nullptr) {
@@ -117,11 +128,11 @@ bool ModuleSceneIntro::CleanUp()
 update_status ModuleSceneIntro::Update(float dt)
 {
 	if (laps == 3) {
-		if (finalLap == false)
-		App->audio->PlayMusic("Audio/MusicF.ogg", 0);
+		if (finalLap == false) {
+			App->audio->PlayMusic("Audio/Music/ThemeF.ogg", 0);
+		}
 		finalLap = true;
 	}
-
 
 	if (App->input->GetKey(SDL_SCANCODE_T) == KEY_DOWN) {
 		lap_timer.Start();
@@ -154,6 +165,15 @@ update_status ModuleSceneIntro::Update(float dt)
 		cone_render_body = cone_render_body->next;
 	}
 
+	p2List_item <PhysBody3D*>* sphe_render_body = sphere_body.getFirst();
+	p2List_item <Sphere*>* sphe_render = sphere.getFirst();
+	while (sphe_render != nullptr) {
+		sphe_render_body->data->GetTransform(&sphe_render->data->transform);
+		sphe_render->data->Render();
+		sphe_render = sphe_render->next;
+		sphe_render_body = sphe_render_body->next;
+	}
+
 	helix_1->GetTransform(&helix1.transform);
 	helix1.Render();
 	helix_2->GetTransform(&helix2.transform);
@@ -182,33 +202,40 @@ void ModuleSceneIntro::OnCollision(PhysBody3D* body1, PhysBody3D* body2)
 	if (body1 == check_1) {
 		if (checkpoint == 6 && halfLap == true) {
 			laps++;
+			App->audio->PlayFx(fl);
 			halfLap = false;
 		}
 		checkpoint = 0;
 	}
 
 	if (body1 == check_2) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 1;
 	}
 
 	if (body1 == check_3) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 2;
 	}
 
 	if (body1 == check_4) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 3;
 		halfLap = true;
 	}
 
 	if (body1 == check_5) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 4;
 	}
 
 	if (body1 == check_6) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 5;
 	}
 
 	if (body1 == check_7) {
+		App->audio->PlayFx(checkp);
 		checkpoint = 6;
 	}
 }
@@ -239,14 +266,30 @@ PhysBody3D* ModuleSceneIntro::CreateConePhysbody(Cone* cone, Module* Callback) {
 	return cone_pbody;
 }
 
-Cone* ModuleSceneIntro::CreateCone(vec3 pos) {
+Cone* ModuleSceneIntro::CreateCone(float h, vec3 pos, float r) {
 	Cone* cone = new Cone;
-	cone->height = 1;
+	cone->height = h;
 	cone->SetPos(pos.x, pos.y, pos.z);
-	cone->radius = 1;
+	cone->radius = r;
 	cone->color = White;
 	cone->SetRotation(90, vec3(0, 0, 1));
 	return cone;
+}
+
+PhysBody3D* ModuleSceneIntro::CreateSphePhysbody(Sphere* sphe, Module* Callback) {
+
+	PhysBody3D* sphe_pbody;
+	sphe_pbody = App->physics->AddBody(*sphe, 0.0f);
+	sphe_pbody->collision_listeners.add(Callback);
+	return sphe_pbody;
+}
+
+Sphere* ModuleSceneIntro::CreateSphe(vec3 pos) {
+	Sphere* sphe = new Sphere;
+	sphe->SetPos(pos.x, pos.y, pos.z);
+	sphe->radius = 2;
+	sphe->color = Green2;
+	return sphe;
 }
 
 PhysBody3D* ModuleSceneIntro::CreateCheckPoint(Cube &cube, vec3 size, vec3 pos, bool isSensor, Module* Callback) {
@@ -263,7 +306,7 @@ PhysBody3D* ModuleSceneIntro::CreateCheckPoint(Cube &cube, vec3 size, vec3 pos, 
 PhysBody3D* ModuleSceneIntro::CreateHelix(Cube &cube, vec3 pos, float angle) {
 
 	PhysBody3D* wall_pbody;
-	cube.size = vec3(0.25, 12, 1);
+	cube.size = vec3(0.25, 10.5, 1);
 	cube.SetPos(pos.x, pos.y, pos.z);
 	cube.SetRotation(angle, vec3(0, 1, 0));
 	cube.color = Orange;

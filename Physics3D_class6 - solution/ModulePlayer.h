@@ -27,4 +27,6 @@ public:
 	float acceleration;
 	float brake;
 	bool bababooey = false;
+
+	uint brrake, forward, respawn;
 };
