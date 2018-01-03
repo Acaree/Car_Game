@@ -170,53 +170,460 @@
     <wall x="200" y="200" z="  1" posx=" -75" posy="-60" posz=" 461" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.4" g="0.2" b="0.0"/>
     <wall x="270" y="270" z="  1" posx="-140" posy="-90" posz=" 459" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.4" g="0.2" b="0.0"/>
 
-    <!--Flowers-->
-    <wall x="0.4" y="0.2" z="  0.4" posx="  15" posy="0" posz=" 10" angle =" 45" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
-    <wall x="0.4" y="0.2" z="  0.4" posx="  16" posy="0" posz=" 11" angle =" 75" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
-    <wall x="0.4" y="0.2" z="  0.4" posx="  16" posy="0" posz="  9" angle =" 15" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="  0.4" posx="  17" posy="0" posz=" 10" angle =" 35" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="  0.4" posx="  16" posy="0" posz=" 10" angle =" 55" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="300" y="300" z="  1" posx="-125" posy="-90" posz=" -160" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.4" g="0.2" b="0.0"/>
+    <wall x="200" y="200" z="  1" posx="  45" posy="-60" posz=" -161" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.4" g="0.2" b="0.0"/>
+    <wall x="270" y="270" z="  1" posx="  90" posy="-90" posz=" -159" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.4" g="0.2" b="0.0"/>
 
-    <!--Bush flowers-->
-    <wall x="0.4" y="0.4" z="0.2" posx="-11" posy="2" posz=" 33.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" -9" posy="2" posz="36.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="-11" posy="2" posz="36.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" -9" posy="2" posz="33.65" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" -8" posy="1" posz="   35" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="-12" posy="1" posz="   35" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="-10" posy="1" posz="   33" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" -10" posy="1" posz="   37" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" -10" posy="3" posz="   35" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <!--Bush flowers-->    
+    <wall x="0.4" y="0.4" z="0.2" posx="19" posy="2" posz=" -141.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="-138.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="19" posy="2" posz="-138.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz=" -141.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   -140" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   -140" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   -142" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   -138" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="3" posz="   -140" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
 
-    <wall x="0.4" y="0.4" z="0.2" posx="  9" posy="2" posz=" 13.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 11" posy="2" posz="16.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="  9" posy="2" posz="16.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 11" posy="2" posz="13.65" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 12" posy="1" posz="   15" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="  8" posy="1" posz="   15" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 10" posy="1" posz="   13" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 10" posy="1" posz="   17" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 10" posy="3" posz="   15" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.4" z="0.2" posx="26" posy="2" posz=" -148.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz="-145.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="2" posz="-145.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz=" -148.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="29" posy="1" posz="   -147" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="1" posz="   -147" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -149" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -145" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="3" posz="   -147" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
 
-    <wall x="0.4" y="0.4" z="0.2" posx="  29" posy="2" posz=" 73.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 31" posy="2" posz="76.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="  29" posy="2" posz="76.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 31" posy="2" posz="73.65" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 32" posy="1" posz="   75" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx="  28" posy="1" posz="   75" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="1" posz="   73" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="1" posz="   77" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="3" posz="   75" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.4" z="0.2" posx="12" posy="2" posz=" -148.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz="-145.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="12" posy="2" posz="-145.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz=" -148.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="1" posz="   -147" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="11" posy="1" posz="   -147" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -149" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -145" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="3" posz="   -147" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
 
-    <wall x="0.4" y="0.4" z="0.2" posx=" 29" posy="2" posz=" -73.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 31" posy="2" posz="-76.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 29" posy="2" posz="-76.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 31" posy="2" posz="-73.65" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 32" posy="1" posz="   -75" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 28" posy="1" posz="   -75" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="1" posz="   -73" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="1" posz="   -77" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
-    <wall x="0.4" y="0.2" z="0.4" posx=" 30" posy="3" posz="   -75" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.4" z="0.2" posx="15" posy="2" posz=" -157.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz="-154.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="2" posz="-154.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz=" -157.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   -156" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="1" posz="   -156" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -158" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -154" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="3" posz="   -156" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="23" posy="2" posz=" -157.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz="-154.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="23" posy="2" posz="-154.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz=" -157.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="1" posz="   -156" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   -156" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -158" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -154" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="3" posz="   -156" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    
+    <wall x="0.4" y="0.4" z="0.2" posx="19" posy="2" posz=" -81.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="-78.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="19" posy="2" posz="-78.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz=" -81.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   -80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   -80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   -82" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   -78" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="3" posz="   -80" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="26" posy="2" posz=" -88.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz="-85.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="2" posz="-85.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz=" -88.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="29" posy="1" posz="   -87" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="1" posz="   -87" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -89" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -85" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="3" posz="   -87" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="12" posy="2" posz=" -88.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz="-85.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="12" posy="2" posz="-85.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz=" -88.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="1" posz="   -87" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="11" posy="1" posz="   -87" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -89" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -85" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="3" posz="   -87" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="15" posy="2" posz=" -97.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz="-94.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="2" posz="-94.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz=" -97.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   -96" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="1" posz="   -96" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -98" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -94" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="3" posz="   -96" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="23" posy="2" posz=" -97.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz="-94.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="23" posy="2" posz="-94.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz=" -97.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="1" posz="   -96" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   -96" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -98" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -94" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="3" posz="   -96" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    
+    <wall x="0.4" y="0.4" z="0.2" posx="19" posy="2" posz="-1.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="1.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="19" posy="2" posz="1.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="-1.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   0" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   0" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="  -2" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   2" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="3" posz="   0" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="26" posy="2" posz=" -8.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz="-5.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="2" posz="-5.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz=" -8.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="29" posy="1" posz="   -7" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="1" posz="   -7" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -9" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   -5" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="3" posz="   -7" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="12" posy="2" posz=" -8.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz="-5.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="12" posy="2" posz="-5.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz=" -8.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="1" posz="   -7" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="11" posy="1" posz="   -7" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -9" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   -5" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="3" posz="   -7" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="15" posy="2" posz=" -17.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz="-14.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="2" posz="-14.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz=" -17.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   -16" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="1" posz="   -16" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -18" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   -14" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="3" posz="   -16" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="23" posy="2" posz=" -17.4" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz="-14.65" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="23" posy="2" posz="-14.65" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz=" -17.4" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="1" posz="   -16" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   -16" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -18" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   -14" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="3" posz="   -16" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="19" posy="2" posz=" 78.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="81.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="19" posy="2" posz="81.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz=" 78.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   78" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="   82" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="3" posz="   80" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="26" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="29" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="12" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="12" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="11" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="15" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="23" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="23" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="19" posy="2" posz=" 178.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz="181.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="19" posy="2" posz="181.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="21" posy="2" posz=" 178.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="  180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="  180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="  178" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="1" posz="  182" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="20" posy="3" posz="  180" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="26" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="28" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="29" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="27" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="12" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="12" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="11" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="13" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="15" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="15" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="17" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="18" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="14" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="16" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="23" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="23" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="25" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="26" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="22" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="24" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="69" posy="2" posz=" 78.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="71" posy="2" posz="81.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="69" posy="2" posz="81.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="71" posy="2" posz=" 78.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="72" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="68" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="1" posz="   78" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="1" posz="   82" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="3" posz="   80" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="76" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="78" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="76" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="78" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="79" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="62" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="62" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="65" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="61" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="65" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="67" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="65" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="67" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="68" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="73" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="73" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="76" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="72" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="69" posy="2" posz=" 178.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="71" posy="2" posz="181.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="69" posy="2" posz="181.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="71" posy="2" posz=" 178.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="72" posy="1" posz="   180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="68" posy="1" posz="   180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="1" posz="   178" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="1" posz="   182" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="70" posy="3" posz="   180" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="76" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="78" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="76" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="78" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="79" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="77" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="62" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="62" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="65" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="61" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="63" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="65" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="67" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="65" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="67" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="68" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="64" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="66" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="73" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="73" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="75" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="76" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="72" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="74" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="169" posy="2" posz=" 78.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="171" posy="2" posz="81.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="169" posy="2" posz="81.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="171" posy="2" posz=" 78.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="172" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="168" posy="1" posz="   80" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="1" posz="   78" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="1" posz="   82" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="3" posz="   80" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="176" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="178" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="176" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="178" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="179" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="162" posy="2" posz=" 71.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="2" posz="74.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="162" posy="2" posz="74.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="2" posz=" 71.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="165" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="161" posy="1" posz="   73" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="1" posz="   71" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="1" posz="   75" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="3" posz="   73" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="165" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="167" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="165" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="167" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="168" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="173" posy="2" posz=" 62.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="2" posz="65.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="173" posy="2" posz="65.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="2" posz=" 62.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="176" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="172" posy="1" posz="   64" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="1" posz="   62" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="1" posz="   66" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="3" posz="   64" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="169" posy="2" posz=" 178.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="171" posy="2" posz="181.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="169" posy="2" posz="181.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="171" posy="2" posz=" 178.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="172" posy="1" posz="   180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="168" posy="1" posz="   180" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="1" posz="   178" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="1" posz="   182" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="170" posy="3" posz="   180" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="1.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="176" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="178" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="176" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="178" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="179" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="177" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="0.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="162" posy="2" posz=" 171.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="2" posz="174.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="162" posy="2" posz="174.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="2" posz=" 171.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="165" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="161" posy="1" posz="   173" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="1" posz="   171" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="1" posz="   175" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="163" posy="3" posz="   173" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="165" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="167" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="165" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="167" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="168" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="164" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="166" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="1.0" g="0.0" b="1.0"/>
+
+    <wall x="0.4" y="0.4" z="0.2" posx="173" posy="2" posz=" 162.6" angle ="  55" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="2" posz="165.35" angle ="-265" rotx="1" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="173" posy="2" posz="165.35" angle ="  65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="175" posy="2" posz=" 162.6" angle =" -65" rotx="1" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="176" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="172" posy="1" posz="   164" angle ="  90" rotx="0" roty="0" rotz="1" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="1" posz="   162" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="1" posz="   166" angle =" -90" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
+    <wall x="0.4" y="0.2" z="0.4" posx="174" posy="3" posz="   164" angle ="   0" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
 
     <!--Lakes-->
     <wall x="20" y="0.2" z="30" posx="   -35" posy="0" posz=" 10" angle =" 55" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="1.0" b="1.0"/>
@@ -224,32 +631,32 @@
 
   
   <!--Tunnels-->
-    <wall x="1" y="  4" z="128" posx=" -81.7" posy=" 7.25" posz="2" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="1" y="  4" z="130" posx=" -71.5" posy=" 7.25" posz="0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="1" y="  2" z="128" posx="-80.85" posy="10.25" posz="2" angle ="-45" rotx="0" roty="0" rotz="1" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="1" y="  2" z="130" posx=" -72.3" posy="10.25" posz="0" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="7" y="1.5" z="130" posx=" -76.5" posy="11.25" posz="0" angle ="  0" rotx="0" roty="0" rotz="1" bool="false" r="0.6" g="0.3" b="0.0"/>
+    <wall x="   1" y="   4" z="128" posx=" -81.7" posy=" 7.25" posz="2" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="   1" y="   4" z="130" posx=" -71.5" posy=" 7.25" posz="0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="   1" y="   2" z="128" posx="-80.85" posy="10.25" posz="2" angle ="-45" rotx="0" roty="0" rotz="1" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="   1" y="   2" z="130" posx=" -72.3" posy="10.25" posz="0" angle =" 45" rotx="0" roty="0" rotz="1" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="7.25" y="1.85" z="130" posx=" -76.5" posy="11.65" posz="0" angle ="  0" rotx="0" roty="0" rotz="1" bool="false" r="0.3" g="0.3" b="0.3"/>
 
-    <wall x="   1" y="  4" z="110" posx="-87.25" posy="4" posz="   -135" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="   1" y="  4" z="110" posx="-88.25" posy="4" posz="-124.25" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 110" y="  2" z="  1" posx="-87.25" posy="7" posz="-134.25" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 110" y="  2" z="  1" posx="-88.25" posy="7" posz="   -125" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="7.25" y="1.5" z="110" posx="-87.25" posy="8" posz="-129.65" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>  
+    <wall x="   1" y="   4" z="110" posx="-87.25" posy="   4" posz="   -135" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="   1" y="   4" z="110" posx="-88.25" posy="   4" posz="-124.25" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x=" 110" y="   2" z="  1" posx="-87.25" posy="   7" posz="-134.25" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x=" 110" y="   2" z="  1" posx="-88.25" posy="   7" posz="   -125" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>
+    <wall x="7.55" y="1.85" z="110" posx="-87.25" posy="8.45" posz=" -129.6" angle =" 90" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.3" b="0.3"/>  
   
   <!--Towers-->
-    <wall x="12" y="13" z="12" posx="106" posy=" 6.5" posz="225.75" angle ="-5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="10" y="13" z="10" posx="106" posy="  16" posz="225.75" angle =" 5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 8" y="13" z=" 8" posx="106" posy="25.5" posz="225.75" angle ="15.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 6" y=" 6" z=" 6" posx="106" posy="  35" posz="225.75" angle ="25.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 4" y=" 4" z=" 4" posx="106" posy="  40" posz="225.75" angle ="35.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 2" y=" 2" z=" 2" posx="106" posy="  43" posz="225.75" angle ="45.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
+    <wall x="12" y="13" z="12" posx="106" posy=" 6.5" posz="225.75" angle ="-5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="0.000" b="1.0"/>
+    <wall x="10" y="13" z="10" posx="106" posy="  16" posz="225.75" angle =" 5.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.000" b="0.0"/>
+    <wall x=" 8" y="13" z=" 8" posx="106" posy="25.5" posz="225.75" angle ="15.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="1.000" b="0.0"/>
+    <wall x=" 6" y=" 6" z=" 6" posx="106" posy="  35" posz="225.75" angle ="25.25" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="1.000" b="1.0"/>
+    <wall x=" 4" y=" 4" z=" 4" posx="106" posy="  40" posz="225.75" angle ="35.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.698" b="0.4"/>
+    <wall x=" 2" y=" 2" z=" 2" posx="106" posy="  43" posz="225.75" angle ="45.25" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.300" b="0.3"/>
 
-    <wall x="12" y="13" z="12" posx=" 78" posy=" 6.5" posz="193.75" angle ="-5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x="10" y="13" z="10" posx=" 78" posy="  16" posz="193.75" angle =" 5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 8" y="13" z=" 8" posx=" 78" posy="25.5" posz="193.75" angle ="15.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 6" y=" 6" z=" 6" posx=" 78" posy="  35" posz="193.75" angle ="25.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 4" y=" 4" z=" 4" posx=" 78" posy="  40" posz="193.75" angle ="35.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
-    <wall x=" 2" y=" 2" z=" 2" posx=" 78" posy="  43" posz="193.75" angle ="45.25" rotx="0" roty="1" rotz="0" bool="false" r="0.6" g="0.3" b="0.0"/>
+    <wall x="12" y="13" z="12" posx=" 78" posy=" 6.5" posz="193.75" angle ="-5.25" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="0.000" b="1.0"/>
+    <wall x="10" y="13" z="10" posx=" 78" posy="  16" posz="193.75" angle =" 5.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.000" b="0.0"/>
+    <wall x=" 8" y="13" z=" 8" posx=" 78" posy="25.5" posz="193.75" angle ="15.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="1.000" b="0.0"/>
+    <wall x=" 6" y=" 6" z=" 6" posx=" 78" posy="  35" posz="193.75" angle ="25.25" rotx="0" roty="1" rotz="0" bool="false" r="0.0" g="1.000" b="1.0"/>
+    <wall x=" 4" y=" 4" z=" 4" posx=" 78" posy="  40" posz="193.75" angle ="35.25" rotx="0" roty="1" rotz="0" bool="false" r="1.0" g="0.698" b="0.4"/>
+    <wall x=" 2" y=" 2" z=" 2" posx=" 78" posy="  43" posz="193.75" angle ="45.25" rotx="0" roty="1" rotz="0" bool="false" r="0.3" g="0.300" b="0.3"/>
 
   <!--Castle mid-->
     <wall x="100" y="25" z="100" posx="  5" posy="12.5" posz="325" angle =" 45" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
@@ -402,90 +809,365 @@
     <wall x="5" y="5" z="1" posx=" -165" posy="17.5" posz="144.5" angle =" 0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
 
   <!--Houses-->
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="43.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="46.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="43.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="46.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="28.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="31.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="28.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="31.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="13.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="16.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="13.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="16.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-1.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz=" 1.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="   0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-1.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz=" 1.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-16.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-13.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-16.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-13.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-31.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-28.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-31.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-28.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-46.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-43.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-46.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-43.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-61.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-58.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-61.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-58.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-76.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-73.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-76.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-73.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-91.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-88.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   50" posy=" 2.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="50.03" posy="   5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="50.04" posy=" 6.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.01" posy="6.25" posz="-91.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="50.02" posy="6.25" posz="-88.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
     
-    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  56" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  59" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="   51" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="   54" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  36" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  39" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="   36" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="   39" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                   
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="   21" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="   24" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                                                   
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="    6" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="    9" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  21" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  24" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="   -9" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="   -6" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
 
-    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz=" 7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz=" 7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz=" 7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="   6" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="   9" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.627" g="0.627" b="0.627"/>
-    
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  -24" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  -21" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  -39" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  -36" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  -54" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  -51" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  -69" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  -66" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="   75" posy=" 2.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="75.03" posy="   5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="75.04" posy=" 6.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.01" posy="6.25" posz="  -84" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="75.02" posy="6.25" posz="  -81" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="43.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="46.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz=" 28.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz=" 31.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                    
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz=" 13.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz=" 16.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                    
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz=" -1.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="  1.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-16.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-13.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-31.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-28.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-46.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-43.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-61.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-58.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-76.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-73.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="100   " posy=" 2.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="100.03" posy="   5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="100.04" posy=" 6.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.01" posy="6.25" posz="-91.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="100.02" posy="6.25" posz="-88.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="   51" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="   54" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                                                  
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="   36" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="   39" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="   21" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="   24" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                  
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="    6" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="    9" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="   -9" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="   -6" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="  -24" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="  -21" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="  -39" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="  -36" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="  -54" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="  -51" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="  -69" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="  -66" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="125   " posy=" 2.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="125.03" posy="   5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="125.04" posy=" 6.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.01" posy="6.25" posz="  -84" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="125.02" posy="6.25" posz="  -81" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="43.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="46.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="   30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz=" 28.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz=" 31.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                   
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="   15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz=" 13.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz=" 16.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                  
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz=" -1.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="  1.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -15" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-16.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-13.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -30" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-31.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-28.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -45" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-46.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-43.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                         
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -60" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-61.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-58.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -75" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-76.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-73.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="150   " posy=" 2.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="150.03" posy="   5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="150.04" posy=" 6.5" posz="  -90" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.01" posy="6.25" posz="-91.5" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="150.02" posy="6.25" posz="-88.5" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz=" 52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="   51" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="   54" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                                                 
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz=" 37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="   36" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="   39" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz=" 22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="   21" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="   24" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                                                 
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="  7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="    6" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="    9" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz=" -7.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="   -9" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="   -6" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="-22.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false"  r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="  -24" angle ="-45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="  -21" angle =" 45" rotx="1" roty="0" rotz="0" bool="false"  r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="-37.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="  -39" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="  -36" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="-52.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="  -54" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="  -51" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="-67.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="  -69" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="  -66" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+                                          
+    <wall x="15" y="   5" z="   7" posx="175   " posy=" 2.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   2" z="4.25" posx="175.03" posy="   5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="1.25" z="2.25" posx="175.04" posy=" 6.5" posz="-82.5" angle ="  0" rotx="0" roty="1" rotz="0" bool="false" r="0.9" g="0.9" b="0.9"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.01" posy="6.25" posz="  -84" angle ="-45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
+    <wall x="15" y="   1" z=" 4.5" posx="175.02" posy="6.25" posz="  -81" angle =" 45" rotx="1" roty="0" rotz="0" bool="false" r="0.0" g="0.0" b="0.0"/>
 
   </walls> 
   
@@ -603,23 +1285,61 @@
   </cones>
 
   <sphes>
-    <sphe posx="-10" posy="1" posz=" 35"/>
-    <sphe posx=" 10" posy="1" posz=" 15"/>
-    <sphe posx=" 30" posy="1" posz=" 75"/>
-    <sphe posx=" 30" posy="1" posz="-75"/>
+    <sphe posx="20" posy="1" posz="-140" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="27" posy="1" posz="-147" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="13" posy="1" posz="-147" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="16" posy="1" posz="-156" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="24" posy="1" posz="-156" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="20" posy="1" posz="-80" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="27" posy="1" posz="-87" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="13" posy="1" posz="-87" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="16" posy="1" posz="-96" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="24" posy="1" posz="-96" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="20" posy="1" posz="  0" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="27" posy="1" posz=" -7" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="13" posy="1" posz=" -7" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="16" posy="1" posz="-16" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="24" posy="1" posz="-16" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="20" posy="1" posz="80" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="27" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="13" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="16" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="24" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="20" posy="1" posz="180" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="27" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="13" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="16" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="24" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="70" posy="1" posz="80" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="77" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="63" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="66" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="74" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="70" posy="1" posz="180" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="77" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="63" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="66" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="74" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="170" posy="1" posz="80" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="177" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="163" posy="1" posz="73" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="166" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="174" posy="1" posz="64" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <sphe posx="170" posy="1" posz="180" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="177" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="163" posy="1" posz="173" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="166" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    <sphe posx="174" posy="1" posz="164" rad="2" r="0.0" g="0.4" b="0.0"/>
+    
+    <!--Windmill-->
+    <sphe posx=" 100" posy="20" posz="100" rad="6.9" r="0.7" g="0.0" b="0.0"/>
   </sphes>
-  
-  <!--<checks>
-    <check x="12" y="0.5" z="0.1" posx="      0" posy="     1" posz="    0" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x="12" y="0.5" z="0.1" posx="    -73" posy="   4.2" posz="247.9" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x="17" y="0.5" z="0.1" posx="     30" posy="    11" posz="415.2" angle ="-40" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x=" 9" y="0.5" z="0.1" posx="    129" posy="    11" posz="  253" angle =" 40" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x="10" y="0.5" z="0.1" posx="-122.25" posy="    11" posz=" 73.3" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x="11" y="0.5" z="0.1" posx="  -76.5" posy="     4" posz="   77" angle ="  0" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-    <check x="12" y="0.5" z="0.1" posx="   -186" posy="     1" posz="  -47" angle ="-10" rotx="0" roty="1" rotz="0" bool="true" r="1.0" g="1.0" b="1.0"/>
-  </checks>-->
-  
-  <!--<helixs>
-    <helix x="  1" y="12" z="0.25" posx="    0" posy="4" posz="  1" angle ="  0" rotx="0" roty="1" rotz="0" r="0.0" g="0.0" b="1.0"/>
-  </helixs>-->
 </track>

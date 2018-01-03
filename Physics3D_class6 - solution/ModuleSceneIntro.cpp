@@ -29,8 +29,6 @@ bool ModuleSceneIntro::Start()
 	pugi::xml_node road_node = track_file.child("track").child("roads").child("road");
 	pugi::xml_node cone_node = track_file.child("track").child("cones").child("cone");
 	pugi::xml_node sphe_node = track_file.child("track").child("sphes").child("sphe");
-	//pugi::xml_node check_node = track_file.child("track").child("checks").child("check");
-	//pugi::xml_node helix_node = track_file.child("track").child("helixs").child("helix");
 
 	while (wall_node != nullptr) {
 		Cube* cube = CreateCube(vec3(wall_node.attribute("x").as_float(), wall_node.attribute("y").as_float(), wall_node.attribute("z").as_float()), vec3(wall_node.attribute("posx").as_float(), wall_node.attribute("posy").as_float(), wall_node.attribute("posz").as_float()), Color(wall_node.attribute("r").as_float(), wall_node.attribute("g").as_float(), wall_node.attribute("b").as_float()), wall_node.attribute("angle").as_float(), vec3(wall_node.attribute("rotx").as_float(), wall_node.attribute("roty").as_float(), wall_node.attribute("rotz").as_float()));
@@ -55,25 +53,11 @@ bool ModuleSceneIntro::Start()
 
 
 	while (sphe_node != nullptr) {
-		Sphere* sphi = CreateSphe(vec3(sphe_node.attribute("posx").as_float(), sphe_node.attribute("posy").as_float(), sphe_node.attribute("posz").as_float()));
+		Sphere* sphi = CreateSphe(vec3(sphe_node.attribute("posx").as_float(), sphe_node.attribute("posy").as_float(), sphe_node.attribute("posz").as_float()), sphe_node.attribute("rad").as_float(), Color(sphe_node.attribute("r").as_float(), sphe_node.attribute("g").as_float(), sphe_node.attribute("b").as_float()));
 		sphere_body.add(CreateSphePhysbody(sphi, this));
 		sphere.add(sphi);
 		sphe_node = sphe_node.next_sibling();
 	}
-
-	//while (check_node != nullptr) {
-	//	Cube* cube = CreateCube(vec3(check_node.attribute("x").as_float(), check_node.attribute("y").as_float(), check_node.attribute("z").as_float()), vec3(check_node.attribute("posx").as_float(), check_node.attribute("posy").as_float(), check_node.attribute("posz").as_float()), Color(check_node.attribute("r").as_float(), check_node.attribute("g").as_float(), check_node.attribute("b").as_float()), check_node.attribute("angle").as_float(), vec3(check_node.attribute("rotx").as_float(), check_node.attribute("roty").as_float(), check_node.attribute("rotz").as_float()));
-	//	check_body.add(CreateCubePhysbody(cube, check_node.attribute("bool").as_bool(), this));
-	//	check.add(cube);
-	//	check_node = check_node.next_sibling();
-	//}
-
-	//while (helix_node != nullptr) {
-	//	Cube* cube = CreateCube(vec3(helix_node.attribute("x").as_float(), helix_node.attribute("y").as_float(), helix_node.attribute("z").as_float()), vec3(helix_node.attribute("posx").as_float(), helix_node.attribute("posy").as_float(), helix_node.attribute("posz").as_float()), Color(helix_node.attribute("r").as_float(), helix_node.attribute("g").as_float(), helix_node.attribute("b").as_float()), helix_node.attribute("angle").as_float(), vec3(helix_node.attribute("rotx").as_float(), helix_node.attribute("roty").as_float(), helix_node.attribute("rotz").as_float()));
-	//	helix_body.add(CreateHelixPhysbody(cube));
-	//	helix.add(cube);
-	//	helix_node = helix_node.next_sibling();
-	//}
 
 	check_1 = CreateCheckPoint(check1, vec3(12, 0.5, 0.1), vec3(      0,   1,     0), true, this);
 	check_2 = CreateCheckPoint(check2, vec3(12, 0.5, 0.1), vec3(    -73, 4.2, 247.9), true, this);
@@ -83,15 +67,18 @@ bool ModuleSceneIntro::Start()
 	check_6 = CreateCheckPoint(check6, vec3(11, 0.5, 0.1), vec3(  -76.5,   4,    77), true, this);
 	check_7 = CreateCheckPoint(check7, vec3(12, 0.5, 0.1), vec3(   -186,   1,   -47), true, this);
 
-	helix_1 = CreateHelix(helix1, vec3(-76.5, 7.245,     55), 90);
-	helix_2 = CreateHelix(helix2, vec3(-76.5, 7.245,     25), 90);
-	helix_3 = CreateHelix(helix3, vec3(-76.5, 7.245,     -5), 90);
-	helix_4 = CreateHelix(helix4, vec3(-76.5, 7.245,    -35), 90);
-	helix_5 = CreateHelix(helix5, vec3(-76.5, 7.245,    -60), 90);
-	helix_6 = CreateHelix(helix6, vec3( -132,     4, -129.5),  0);
-	helix_7 = CreateHelix(helix7, vec3( -102,     4, -129.5),  0);
-	helix_8 = CreateHelix(helix8, vec3(  -72,     4, -129.5),  0);
-	helix_9 = CreateHelix(helix9, vec3(  -42,     4, -129.5),  0);
+	helix_1 = CreateHelix(helix1, vec3(0.25, 10.5, 1), vec3(-76.5, 7.245,     55), 90);
+	helix_2 = CreateHelix(helix2, vec3(0.25, 10.5, 1), vec3(-76.5, 7.245,     25), 90);
+	helix_3 = CreateHelix(helix3, vec3(0.25, 10.5, 1), vec3(-76.5, 7.245,     -5), 90);
+	helix_4 = CreateHelix(helix4, vec3(0.25, 10.5, 1), vec3(-76.5, 7.245,    -35), 90);
+	helix_5 = CreateHelix(helix5, vec3(0.25, 10.5, 1), vec3(-76.5, 7.245,    -60), 90);
+	helix_6 = CreateHelix(helix6, vec3(0.25, 10.5, 1), vec3( -132,     4, -129.5),  0);
+	helix_7 = CreateHelix(helix7, vec3(0.25, 10.5, 1), vec3( -102,     4, -129.5),  0);
+	helix_8 = CreateHelix(helix8, vec3(0.25, 10.5, 1), vec3(  -72,     4, -129.5),  0);
+	helix_9 = CreateHelix(helix9, vec3(0.25, 10.5, 1), vec3(  -42,     4, -129.5),  0);
+
+	helix_10 = CreateHelix(helix10, vec3(0.25, 15.5, 1), vec3(100, 20, 93),90);
+	helix_11 = CreateHelix(helix11, vec3(0.25, 1, 15.5), vec3(100, 20, 93),90);
 
 	motor_1 = CreateMotor(motor1, vec3(-76.5, 7.245,    57), 90);
 	motor_2 = CreateMotor(motor2, vec3(-76.5, 7.245,    27), 90);
@@ -103,6 +90,9 @@ bool ModuleSceneIntro::Start()
 	motor_8 = CreateMotor(motor8, vec3(  -72,     4, -129.5), 0);
 	motor_9 = CreateMotor(motor9, vec3(  -42,     4, -129.5), 0);
 
+	motor_10 = CreateMotor(motor10, vec3(100, 20, 105),270);
+	motor_11 = CreateMotor(motor11, vec3(100, 20, 105),90);
+
 	App->physics->AddConstraintHinge(*motor_1, *helix_1, vec3(0, 0, 0), vec3(0, 0, 0), vec3( 1, 0, 0), vec3(0, 0, 0), true, true);
 	App->physics->AddConstraintHinge(*motor_2, *helix_2, vec3(0, 0, 0), vec3(0, 0, 0), vec3(-1, 0, 0), vec3(0, 0, 0), true, true);
 	App->physics->AddConstraintHinge(*motor_3, *helix_3, vec3(0, 0, 0), vec3(0, 0, 0), vec3( 1, 0, 0), vec3(0, 0, 0), true, true);
@@ -112,6 +102,16 @@ bool ModuleSceneIntro::Start()
 	App->physics->AddConstraintHinge(*motor_7, *helix_7, vec3(0, 0, 0), vec3(0, 0, 0), vec3( 1, 0, 0), vec3(0, 0, 0), true, true);
 	App->physics->AddConstraintHinge(*motor_8, *helix_8, vec3(0, 0, 0), vec3(0, 0, 0), vec3(-1, 0, 0), vec3(0, 0, 0), true, true);
 	App->physics->AddConstraintHinge(*motor_9, *helix_9, vec3(0, 0, 0), vec3(0, 0, 0), vec3( 1, 0, 0), vec3(0, 0, 0), true, true);
+
+	App->physics->AddConstraintHinge(*motor_10, *helix_10, vec3(0, 0, 0), vec3(0, 0, 0), vec3(1, 0, 0), vec3(0, 0, 0), true, true);
+	App->physics->AddConstraintHinge(*motor_11, *helix_11, vec3(0, 0, 0), vec3(0, 0, 0), vec3(-1, 0, 0), vec3(0, 0, 0), true, true);
+
+	Windmill.height = 20;
+	Windmill.radius = 7;
+	Windmill.SetPos(100,10,100);
+	Windmill.SetRotation(90, { 0,0,1 });
+	Windmill.color = White;
+	windmill = App->physics->AddBody(Windmill, 0);
 
 	return ret;
 }
@@ -192,6 +192,14 @@ update_status ModuleSceneIntro::Update(float dt)
 	helix8.Render();
 	helix_9->GetTransform(&helix9.transform);
 	helix9.Render();
+
+	helix_10->GetTransform(&helix10.transform);
+	helix10.Render();
+	helix_11->GetTransform(&helix11.transform);
+	helix11.Render();
+
+	windmill->GetTransform(&Windmill.transform);
+	Windmill.Render();
 
 	return UPDATE_CONTINUE;
 }
@@ -284,11 +292,11 @@ PhysBody3D* ModuleSceneIntro::CreateSphePhysbody(Sphere* sphe, Module* Callback)
 	return sphe_pbody;
 }
 
-Sphere* ModuleSceneIntro::CreateSphe(vec3 pos) {
+Sphere* ModuleSceneIntro::CreateSphe(vec3 pos, float rad, Color color) {
 	Sphere* sphe = new Sphere;
 	sphe->SetPos(pos.x, pos.y, pos.z);
-	sphe->radius = 2;
-	sphe->color = Green2;
+	sphe->radius = rad;
+	sphe->color = color;
 	return sphe;
 }
 
@@ -303,10 +311,10 @@ PhysBody3D* ModuleSceneIntro::CreateCheckPoint(Cube &cube, vec3 size, vec3 pos, 
 	return wall_pbody;
 }
 
-PhysBody3D* ModuleSceneIntro::CreateHelix(Cube &cube, vec3 pos, float angle) {
+PhysBody3D* ModuleSceneIntro::CreateHelix(Cube &cube, vec3 size, vec3 pos, float angle) {
 
 	PhysBody3D* wall_pbody;
-	cube.size = vec3(0.25, 10.5, 1);
+	cube.size = size;
 	cube.SetPos(pos.x, pos.y, pos.z);
 	cube.SetRotation(angle, vec3(0, 1, 0));
 	cube.color = Orange;
@@ -326,11 +334,3 @@ PhysBody3D* ModuleSceneIntro::CreateMotor(Cylinder &cylinder, vec3 pos, float an
 	wall_pbody->GetBody()->setLinearFactor(btVector3(0, 0, 0));
 	return wall_pbody;
 }
-
-//PhysBody3D* ModuleSceneIntro::CreateHelixPhysbody(Cube* cube) {
-//
-//	PhysBody3D* helix_pbody;
-//	helix_pbody = App->physics->AddBody(*cube, 10000.0f);
-//	helix_pbody->GetBody()->setLinearFactor(btVector3(0, 0, 0));
-//	return helix_pbody;
-//}

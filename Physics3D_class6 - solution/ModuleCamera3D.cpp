@@ -48,16 +48,6 @@ update_status ModuleCamera3D::Update(float dt)
 
 	Look(Position, m.translation(), true);
 
-	// Correct height
-	if (m.translation().y < 2.5)
-		Position.y = 4;
-	else if (m.translation().y > 2.5 && (m.translation().y < 6))
-		Position.y = 7.2;
-	else if (m.translation().y > 6 && (m.translation().y < 9))
-		Position.y = 11.4;
-	else
-		Position.y = 14.6;
-
 	// Correct distance
 	vec3 cam_to_target = m.translation() - Position;
 	float dist = length(cam_to_target);
@@ -71,7 +61,7 @@ update_status ModuleCamera3D::Update(float dt)
 		correctionFactor = 0.15*(max_following_dist - dist) / dist;
 	}
 	Position -= correctionFactor * cam_to_target;
-
+	Position.y += cam_to_target.y + 4.2f;
 	// Mouse motion ----------------
 
 	if(App->input->GetMouseButton(SDL_BUTTON_RIGHT) == KEY_REPEAT)

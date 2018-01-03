@@ -101,10 +101,10 @@ bool ModulePlayer::Start()
 	car.wheels[3].steering = false;
 
 	vehicle = App->physics->AddVehicle(car);
-	vehicle->SetPos(75,30,7.5);
+	vehicle->SetPos(0,0,0);
 	vehicle->GetTransform(&matrix);
 	App->camera->Move(0, 0, -10);
-	App->camera->Follow(vehicle, 10, 10, 1.f);
+	App->camera->Follow(vehicle, 10, 12.5, 1.f);
 
 	return true;
 }
@@ -161,10 +161,18 @@ update_status ModulePlayer::Update(float dt)
 
 	if (App->input->GetKey(SDL_SCANCODE_DOWN) == KEY_REPEAT)
 	{
-		if (bababooey == false)
-		acceleration = -ACCELERATION / 2;
-		else
-		acceleration = ACCELERATION / 2;
+		if (bababooey == false){
+			if (vehicle->GetKmh() >= -100)
+				acceleration = -ACCELERATION/2;
+			else
+				acceleration = 0;
+	}
+		else {
+			if (vehicle->GetKmh() <= 100)
+				acceleration = ACCELERATION / 2;
+			else
+				acceleration = 0;
+		}
 	}
 
 	if (App->input->GetKey(SDL_SCANCODE_RCTRL) == KEY_REPEAT)
@@ -229,7 +237,7 @@ update_status ModulePlayer::Update(float dt)
 	vehicle->Render();
 
 	char title[80];
-	sprintf_s(title,"Time: %i Lap: %i", App->scene_intro->lap_timer.Read(), App->scene_intro->laps);
+	sprintf_s(title,"Time: %i Lap: %i", App->scene_intro->lap_timer.Read()/1000, App->scene_intro->laps);
 	App->window->SetTitle(title);
 
 	return UPDATE_CONTINUE;
