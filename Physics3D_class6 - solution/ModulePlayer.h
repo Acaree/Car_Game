@@ -20,7 +20,7 @@ public:
 	bool CleanUp();
 
 public:
-
+	bool game_paused = true;
 	PhysVehicle3D* vehicle;
 	mat4x4 matrix;
 	float turn;

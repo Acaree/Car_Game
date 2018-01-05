@@ -13,6 +13,7 @@ public:
 
 	void Start();
 	void Stop();
+	void Continue();
 
 	Uint32 Read();
 

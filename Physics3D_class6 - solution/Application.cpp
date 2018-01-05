@@ -71,8 +71,13 @@ bool Application::Init()
 // ---------------------------------------------
 void Application::PrepareUpdate()
 {
-	dt = (float)ms_timer.Read() / 1000.0f;
-	ms_timer.Start();
+	if (player->game_paused == false) {
+		dt = (float)ms_timer.Read() / 1000.0f;
+		ms_timer.Start();
+	}
+	else {
+		dt = 0;
+	}
 }
 
 // ---------------------------------------------
