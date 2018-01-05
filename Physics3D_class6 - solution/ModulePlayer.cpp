@@ -242,7 +242,7 @@ update_status ModulePlayer::Update(float dt)
 		App->window->SetTitle(title);
 	}
 	
-	if (App->input->GetKey(SDL_SCANCODE_P) == KEY_DOWN) {
+	if (App->input->GetKey(SDL_SCANCODE_P) == KEY_DOWN ) {
 		if (game_paused) {
 			game_paused = false;
 			App->scene_intro->lap_timer.Continue();
