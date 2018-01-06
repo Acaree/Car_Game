@@ -134,21 +134,23 @@ update_status ModuleSceneIntro::Update(float dt)
 		finalLap = true;
 	}
 
-	if (laps > 3) {
-		App->player->brake = BRAKE_POWER * 10000;
+	if (laps <= 2) {
+		if (finalLap == true)
+			App->audio->PlayMusic("Audio/Music/Theme.ogg", 0);
+		finalLap = false;
+	}
+
+	if (laps > 3 || lap_timer.Read()/1000 == 450) {
+		laps = 1;
+		App->player->vehicle->SetTransform(&App->player->matrix);
 		App->player->vehicle->SetPos(0, 0, 0);
 		App->camera->Move(0, 0, -10);
+		App->player->brake = BRAKE_POWER * 10000;
 		App->player->vehicle->Bababooey2();
 		App->player->bababooey = false;
 		App->player->game_paused = true;
-		laps = 0;
 		lap_timer.Start();
 		lap_timer.Stop();
-
-	}
-
-	if (App->input->GetKey(SDL_SCANCODE_T) == KEY_DOWN) {
-		lap_timer.Start();
 	}
 
 	if (App->input->GetKey(SDL_SCANCODE_M) == KEY_DOWN) {
