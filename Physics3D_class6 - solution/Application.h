@@ -26,6 +26,8 @@ public:
 	ModuleCamera3D* camera;
 	ModulePhysics3D* physics;
 	ModulePlayer* player;
+	int best_time=450;
+	int last_time=0;
 
 private:
 
@@ -41,6 +43,8 @@ public:
 	bool Init();
 	update_status Update();
 	bool CleanUp();
+	void Save_time(int time);
+	void Load_time();
 
 private:
 

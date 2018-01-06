@@ -66,6 +66,7 @@ bool Application::Init()
 	
 	ms_timer.Start();
 	return ret;
+	Load_time();
 }
 
 // ---------------------------------------------
@@ -135,4 +136,33 @@ bool Application::CleanUp()
 void Application::AddModule(Module* mod)
 {
 	list_modules.add(mod);
+}
+
+void Application::Save_time(int time) {
+	pugi::xml_document data;
+	pugi::xml_node root;
+
+	root = data.append_child("save");
+	root.append_attribute("best_time") = time;
+	
+	data.save_file("save_game.xml");
+	
+	data.reset();
+}
+
+void Application::Load_time() {
+	pugi::xml_document data;
+	pugi::xml_node root;
+
+	pugi::xml_parse_result result = data.load_file("save_game.xml");
+
+	if (result != NULL)
+	{
+		root = data.child("save");
+		best_time = root.attribute("best_time").as_int();
+		data.reset();
+	}
+	else
+		best_time = 450;
+
 }

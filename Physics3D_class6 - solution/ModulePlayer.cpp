@@ -238,7 +238,7 @@ update_status ModulePlayer::Update(float dt)
 		vehicle->Render();
 
 		char title[80];
-		sprintf_s(title, "Time: %i Lap: %i", App->scene_intro->lap_timer.Read() / 1000, App->scene_intro->laps);
+		sprintf_s(title, "Time: %i Lap: %i/3 Last Time: %i Best Time: %i", App->scene_intro->lap_timer.Read() / 1000, App->scene_intro->laps, App->last_time, App->best_time);
 		App->window->SetTitle(title);
 	}
 	

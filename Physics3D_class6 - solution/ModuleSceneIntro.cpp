@@ -140,8 +140,7 @@ update_status ModuleSceneIntro::Update(float dt)
 		finalLap = false;
 	}
 
-	if (laps > 3 || lap_timer.Read()/1000 == 450) {
-		laps = 1;
+	if (laps > 3 || lap_timer.Read()/1000 > 450) {
 		App->player->vehicle->SetTransform(&App->player->matrix);
 		App->player->vehicle->SetPos(0, 0, 0);
 		App->camera->Move(0, 0, -10);
@@ -149,8 +148,19 @@ update_status ModuleSceneIntro::Update(float dt)
 		App->player->vehicle->Bababooey2();
 		App->player->bababooey = false;
 		App->player->game_paused = true;
+		if (laps > 3) {
+			if (lap_timer.Read() / 1000 < App->best_time) {
+				App->Save_time(lap_timer.Read() / 1000);
+				App->Load_time();
+			}
+			App->last_time = lap_timer.Read()/1000;
+		}
 		lap_timer.Start();
 		lap_timer.Stop();
+		laps = 1;
+		char title[80];
+		sprintf_s(title, "Time: %i Lap: %i/3 Last Time: %i Best Time: %i", App->scene_intro->lap_timer.Read() / 1000, App->scene_intro->laps, App->last_time, App->best_time);
+		App->window->SetTitle(title);
 	}
 
 	if (App->input->GetKey(SDL_SCANCODE_M) == KEY_DOWN) {
