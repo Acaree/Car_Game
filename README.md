@@ -10,4 +10,6 @@ P -> for start/pause the game
 M -> add one lap (use this if you want to restart the game if you dont want to do the three laps, dont cheat >:( )
 Right mouse click -> you can move the camera around the car if u want to see the map (do not recommend doing this while you are driving).
 
+To delete the previous best time you should go into the exe folder and delete the file "save_game.xml"
+
 ### IN CASE YOU SEE A LINES OF THE DEBUG MODE PRESS F1 (dont know why this happens)###
