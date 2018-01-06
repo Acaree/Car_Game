@@ -65,8 +65,9 @@ bool Application::Init()
 	}
 	
 	ms_timer.Start();
-	return ret;
 	Load_time();
+	return ret;
+	
 }
 
 // ---------------------------------------------
